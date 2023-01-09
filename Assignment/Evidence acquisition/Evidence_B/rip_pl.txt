@@ -1,0 +1,13 @@
+rip.pl -r registry.0xfffff8a00000f010.no_name.reg   
+rip.pl -r registry.0xfffff8a0011e5010.SAM.reg          
+rip.pl -r registry.0xfffff8a002762010.Syscachehve.reg
+rip.pl -r registry.0xfffff8a000024010.SYSTEM.reg    
+rip.pl -r registry.0xfffff8a00123d410.NTUSERDAT.reg    
+rip.pl -r registry.0xfffff8a00611e410.SECURITY.reg
+rip.pl -r registry.0xfffff8a000061010.HARDWARE.reg  
+rip.pl -r registry.0xfffff8a001315010.NTUSERDAT.reg    
+rip.pl -r registry.0xfffff8a0061a5010.DEFAULT.reg
+rip.pl -r registry.0xfffff8a000b8c010.BCD.reg       
+rip.pl -r registry.0xfffff8a00162d010.ntuserdat.reg
+rip.pl -r registry.0xfffff8a000baa010.SOFTWARE.reg  
+rip.pl -r registry.0xfffff8a001693410.UsrClassdat.reg

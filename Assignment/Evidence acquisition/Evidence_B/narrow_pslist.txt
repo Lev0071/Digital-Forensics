@@ -1,0 +1,52 @@
+Offset(V)          Name                    PID   PPID   Thds     Hnds   Sess  Wow64 Start                          Exit                          
+------------------ -------------------- ------ ------ ------ -------- ------ ------ ------------------------------ ------------------------------
+0xfffffa8018da6040 System                    4      0     89      560 ------      0 2022-08-28 06:42:08 UTC+0000                                 
+0xfffffa80199a1950 smss.exe                244      4      2       29 ------      0 2022-08-28 06:42:08 UTC+0000                                 
+0xfffffa8019ff4060 csrss.exe               328    320      9      508      0      0 2022-08-28 06:42:16 UTC+0000                                 
+0xfffffa801a168b30 csrss.exe               380    372     11      457      1      0 2022-08-28 06:42:18 UTC+0000                                 
+0xfffffa801a1914a0 wininit.exe             388    320      3       76      0      0 2022-08-28 06:42:18 UTC+0000                                 
+0xfffffa80192a3060 winlogon.exe            424    372      4      112      1      0 2022-08-28 06:42:19 UTC+0000                                 
+0xfffffa801a1e4b30 services.exe            484    388      8      215      0      0 2022-08-28 06:42:21 UTC+0000                                 
+0xfffffa801a19fb30 lsass.exe               492    388      8      764      0      0 2022-08-28 06:42:22 UTC+0000                                 
+0xfffffa801a1f5720 lsm.exe                 500    388      9      148      0      0 2022-08-28 06:42:22 UTC+0000                                 
+0xfffffa801a259690 svchost.exe             588    484     11      364      0      0 2022-08-28 06:42:27 UTC+0000                                 
+0xfffffa801a27db30 vm3dservice.ex          648    484      4       45      0      0 2022-08-28 06:42:28 UTC+0000                                 
+0xfffffa801a280870 svchost.exe             688    484      9      309      0      0 2022-08-28 06:42:29 UTC+0000                                 
+0xfffffa801a2c4b30 svchost.exe             776    484     23      589      0      0 2022-08-28 06:42:30 UTC+0000                                 
+0xfffffa801a2d9b30 svchost.exe             816    484     25      471      0      0 2022-08-28 06:42:30 UTC+0000                                 
+0xfffffa801a2e09e0 svchost.exe             840    484     44     1038      0      0 2022-08-28 06:42:30 UTC+0000                                 
+0xfffffa801a307060 audiodg.exe             920    776      5      124      0      0 2022-08-28 06:42:31 UTC+0000                                 
+0xfffffa801a3349e0 svchost.exe             992    484     19      762      0      0 2022-08-28 06:42:32 UTC+0000                                 
+0xfffffa801a35eb30 svchost.exe             324    484     18      479      0      0 2022-08-28 06:42:33 UTC+0000                                 
+0xfffffa801a3b6b30 spoolsv.exe             672    484     13      270      0      0 2022-08-28 06:42:36 UTC+0000                                 
+0xfffffa801a3db060 svchost.exe            1056    484     21      300      0      0 2022-08-28 06:42:36 UTC+0000                                 
+0xfffffa801a4b9b30 VGAuthService.         1240    484      4       82      0      0 2022-08-28 06:42:39 UTC+0000                                 
+0xfffffa801a515450 taskhost.exe           1340    484      9      150      1      0 2022-08-28 06:42:40 UTC+0000                                 
+0xfffffa801a545480 dwm.exe                1396    816      4       70      1      0 2022-08-28 06:42:40 UTC+0000                                 
+0xfffffa801a56a910 explorer.exe           1456   1388     27      814      1      0 2022-08-28 06:42:40 UTC+0000                                 
+0xfffffa801a582b30 vmtoolsd.exe           1496    484     11      270      0      0 2022-08-28 06:42:41 UTC+0000                                 
+0xfffffa801a676060 vm3dservice.ex         2044   1456      3       48      1      0 2022-08-28 06:42:47 UTC+0000                                 
+0xfffffa801a6779e0 vmtoolsd.exe            876   1456      9      189      1      0 2022-08-28 06:42:47 UTC+0000                                 
+0xfffffa801a484b30 dllhost.exe            1368    484     16      200      0      0 2022-08-28 06:42:48 UTC+0000                                 
+0xfffffa80197736f0 msdtc.exe              1160    484     15      155      0      0 2022-08-28 06:42:52 UTC+0000                                 
+0xfffffa801a76d060 SearchIndexer.         1088    484     14      639      0      0 2022-08-28 06:42:54 UTC+0000                                 
+0xfffffa801a78a3f0 WmiPrvSE.exe           2052    588     11      204      0      0 2022-08-28 06:42:55 UTC+0000                                 
+0xfffffa801a861b30 wmpnetwk.exe           2320    484     14      439      0      0 2022-08-28 06:42:59 UTC+0000                                 
+0xfffffa801a8c85f0 svchost.exe            2428    484     23      314      0      0 2022-08-28 06:43:00 UTC+0000                                 
+0xfffffa801a943950 svchost.exe            2600    484     10      352      0      0 2022-08-28 06:43:01 UTC+0000                                 
+0xfffffa801a9bdb30 WmiPrvSE.exe           2792    588      9      216      0      0 2022-08-28 06:43:04 UTC+0000                                 
+0xfffffa801aa68060 sppsvc.exe             2284    484      5      152      0      0 2022-08-28 06:44:44 UTC+0000                                 
+0xfffffa801a8ed060 svchost.exe             932    484     14      322      0      0 2022-08-28 06:44:45 UTC+0000                                 
+0xfffffa801aa49b30 chrome.exe             2892   1456     34      815      1      0 2022-08-28 06:47:04 UTC+0000                                 
+0xfffffa801a562060 chrome.exe             1960   2892     10      220      1      0 2022-08-28 06:47:31 UTC+0000                                 
+0xfffffa801a405060 thunderbird.ex         2776    772     65      859      1      0 2022-08-28 06:49:08 UTC+0000                                 
+0xfffffa801a6d5060 thunderbird.ex         3312   2776     39      308      1      0 2022-08-28 06:49:13 UTC+0000                                 
+0xfffffa801a9b7b30 thunderbird.ex         3568   2776      0 --------      1      0 2022-08-28 06:49:17 UTC+0000   2022-08-28 06:49:21 UTC+0000  
+0xfffffa801a9f6b30 thunderbird.ex         3972   2776     10      181      1      0 2022-08-28 06:49:19 UTC+0000                                 
+0xfffffa801aa2a060 thunderbird.ex         2136   2776     20      270      1      0 2022-08-28 06:49:22 UTC+0000                                 
+0xfffffa801aa31b30 thunderbird.ex         3508   2776      0 --------      1      0 2022-08-28 06:49:26 UTC+0000   2022-08-28 06:49:36 UTC+0000  
+0xfffffa801aa33b30 thunderbird.ex         3476   2776     21      278      1      0 2022-08-28 06:49:26 UTC+0000                                 
+0xfffffa801a9f3630 mynotepad++.ex         3948   1456      3       70      1      1 2022-08-28 06:50:21 UTC+0000                                 
+0xfffffa8018e7f6d0 iexplore.exe           2028   1456     12      409      1      1 2022-08-28 06:50:56 UTC+0000                                 
+0xfffffa801abb8b30 iexplore.exe           3656   2028     16      373      1      1 2022-08-28 06:50:57 UTC+0000                                 
+0xfffffa8019a075c0 chrome.exe             3808   2892      9      174      1      0 2022-08-28 06:51:16 UTC+0000                                 

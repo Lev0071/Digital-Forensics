@@ -1,0 +1,262 @@
+sansforensics@siftworkstation: ~/Downloads/evidence_B
+$ md5sum '/home/sansforensics/Downloads/evidence_B/EvidenceB.zip' 
+01d52b7b461afe4184424293b0e2b841  /home/sansforensics/Downloads/evidence_B/EvidenceB.zip
+sansforensics@siftworkstation: ~/Downloads/evidence_B
+
+sansforensics@siftworkstation: ~/Downloads/evidence_B
+$ vol.py -f '/home/sansforensics/Downloads/evidence_B/Snapshot1.vmem' imageinfo
+Volatility Foundation Volatility Framework 2.6.1
+INFO    : volatility.debug    : Determining profile based on KDBG search...
+          Suggested Profile(s) : Win7SP1x64, Win7SP0x64, Win2008R2SP0x64, Win2008R2SP1x64_24000, Win2008R2SP1x64_23418, Win2008R2SP1x64, Win7SP1x64_24000, Win7SP1x64_23418
+                     AS Layer1 : WindowsAMD64PagedMemory (Kernel AS)
+                     AS Layer2 : FileAddressSpace (/home/sansforensics/Downloads/evidence_B/Snapshot1.vmem)
+                      PAE type : No PAE
+                           DTB : 0x187000L
+                          KDBG : 0xf80002a450a0L
+          Number of Processors : 1
+     Image Type (Service Pack) : 1
+                KPCR for CPU 0 : 0xfffff80002a46d00L
+             KUSER_SHARED_DATA : 0xfffff78000000000L
+           Image date and time : 2022-08-28 06:53:09 UTC+0000
+     Image local date and time : 2022-08-28 16:53:09 +1000
+sansforensics@siftworkstation: ~/Downloads/evidence_B
+
+
+
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 pslist
+
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 procdump -p <PID> -D <location>
+
+
+$ vol.py -f Snapshot1.vmem --profile=Win7SP1x64 hivelist
+Volatility Foundation Volatility Framework 2.6.1
+Virtual            Physical           Name
+------------------ ------------------ ----
+0xfffff8a00611e410 0x0000000028861410 \SystemRoot\System32\Config\SECURITY
+0xfffff8a0061a5010 0x00000000230ac010 \SystemRoot\System32\Config\DEFAULT
+0xfffff8a00000f010 0x000000002d4a5010 [no name]
+0xfffff8a000024010 0x000000002d470010 \REGISTRY\MACHINE\SYSTEM
+0xfffff8a000061010 0x000000002d4af010 \REGISTRY\MACHINE\HARDWARE
+0xfffff8a000b8c010 0x00000000290c2010 \Device\HarddiskVolume1\Boot\BCD
+0xfffff8a000baa010 0x0000000029118010 \SystemRoot\System32\Config\SOFTWARE
+0xfffff8a0011e5010 0x000000001fd99010 \SystemRoot\System32\Config\SAM
+0xfffff8a00123d410 0x000000001f4a9410 \??\C:\Windows\ServiceProfiles\NetworkService\NTUSER.DAT
+0xfffff8a001315010 0x000000001eb7d010 \??\C:\Windows\ServiceProfiles\LocalService\NTUSER.DAT
+0xfffff8a00162d010 0x00000000165c9010 \??\C:\Users\Eason\ntuser.dat
+0xfffff8a001693410 0x0000000015d2f410 \??\C:\Users\Eason\AppData\Local\Microsoft\Windows\UsrClass.dat
+0xfffff8a002762010 0x000000002fc7c010 \??\C:\System Volume Information\Syscache.hve
+
+mkdir EasonsRegistry
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 dumpregistry -D EasonsRegistry
+
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 pslist | cat Running_Proccesses.txt
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 pslist > Running_Proccesses.txt
+
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 procdump -p 380 -D '/home/sansforensics/Downloads/evidence_B/Processes'
+
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 netscan | cat > '/home/sansforensics/Downloads/evidence_B/Networks/netscan.txt' 
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 -p 992 handles 
+
+Possible Malware
+https://www.youtube.com/watch?v=lm4oESpAnmM
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 malfind --dump-dir='/home/sansforensics/Downloads/evidence_B/Malware?' 
+cd '/home/sansforensics/Downloads/evidence_B/Malware?/'
+ls
+// Name of dump files
+md5sum *
+No hashes returned virus or malware
+
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 userassist > '/home/sansforensics/Downloads/evidence_B/usserassist/userassist.txt'
+
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 shimcache > '/home/sansforensics/Downloads/evidence_B/Shimcache/shimcase.txt'
+
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 shellbags > '/home/sansforensics/Downloads/evidence_B/shellbags/shellbags.txt'
+
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 lsadump > '/home/sansforensics/Downloads/evidence_B/Password and LSA Keys/lsadump' 
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 hashdump > '/home/sansforensics/Downloads/evidence_B/Password and LSA Keys/hashdump.txt'
+
+vol.py -f  Snapshot1.vmem --profile=Win7SP1x64 iehistory -p 3656 > '/home/sansforensics/Downloads/evidence_B/IE_History/ie_history.txt'
+
+-----------------------------------------------------------------------------
+
+$ rip.pl -r registry.0xfffff8a00162d010.ntuserdat.reg -p runmru
+Launching runmru v.20200525
+runmru v.20200525
+(NTUSER.DAT) Gets contents of user's RunMRU key
+
+RunMru
+Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU
+LastWrite Time 2022-08-28 06:52:47Z
+MRUList = a
+a   notepad\1
+
+-----------------------------------------------------------------------------
+
+$ rip.pl -r registry.0xfffff8a000024010.SYSTEM.reg -p compname
+Launching compname v.20090727
+compname v.20090727
+(System) Gets ComputerName and Hostname values from System hive
+
+ComputerName    = EASON-PC
+TCP/IP Hostname = Eason-PC
+
+-----------------------------------------------------------------------------
+
+$ vol.py -f Snapshot1.vmem --profile=Win7SP1x64 printkey -K "ControlSet001\Control\ComputerName\ComputerName"
+Volatility Foundation Volatility Framework 2.6.1
+Legend: (S) = Stable   (V) = Volatile
+
+----------------------------
+Registry: \REGISTRY\MACHINE\SYSTEM
+Key name: ComputerName (S)
+Last updated: 2022-08-27 12:17:04 UTC+0000
+
+Subkeys:
+ 
+Values:
+REG_SZ                        : (S) mnmsrvc 
+REG_SZ        ComputerName    : (S) EASON-PC
+
+-----------------------------------------------------------------------------
+
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 pslist | grep -i thunder
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 memdump -p 2776 -D '/home/sansforensics/Downloads/evidence_B/ThunderBird'
+cd /Downloads/evidence_B/ThunderBird
+xxd -u 2776.dmp > thunnderbird.txt
+
+
+-----------------------------------------------------------------------------
+
+Looking for files
+
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 filescan > '/home/sansforensics/Downloads/evidence_B/FileScan/FileScan.txt'
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 filescan | grep "logins.json"
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 dumpfiles -Q 0x000000007e000f20 -D /home/sansforensics/Downloads/evidence_B/ThunderBird
+cd '/home/sansforensics/Downloads/evidence_B/ThunderBird/' 
+strings file.None.0xfffffa80198c5570.dat
+
+-----------------------------------------------------------------------------
+
+$ rip.pl -r registry.0xfffff8a0011e5010.SAM.reg -p samparse | grep -i Username
+Launching samparse v.20200825
+Username        : Administrator [500]
+Username        : Guest [501]
+Username        : Eason [1000]
+Username        : HomeGroupUser$ [1002]
+
+-----------------------------------------------------------------------------
+
+$ rip.pl -r registry.0xfffff8a00162d010.ntuserdat.reg -p recentdocs
+Launching recentdocs v.20200427
+recentdocs v.20200427
+(NTUSER.DAT) Gets contents of user's RecentDocs key
+
+RecentDocs
+**All values printed in MRUList\MRUListEx order.
+Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs
+LastWrite Time: 2022-08-27 12:47:48Z
+  2 = Downloads
+  1 = insurance_location.png
+  0 = ReadMe.txt
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.png
+LastWrite Time 2022-08-27 12:47:48Z
+MRUListEx = 0
+  0 = insurance_location.png
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.txt
+LastWrite Time 2022-08-27 12:38:42Z
+MRUListEx = 0
+  0 = ReadMe.txt
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\Folder
+LastWrite Time 2022-08-27 12:47:48Z
+MRUListEx = 0
+  0 = Downloads
+
+-----------------------------------------------------------------------------
+
+$ rip.pl -r registry.0xfffff8a000baa010.SOFTWARE.reg -p winver
+Launching winver v.20200525
+winver v.20200525
+(Software) Get Windows version & build info
+
+ProductName               Windows 7 Enterprise
+CSDVersion                Service Pack 1      
+BuildLab                  7601.win7sp1_rtm.101119-1850
+BuildLabEx                7601.17514.amd64fre.win7sp1_rtm.101119-1850
+RegisteredOrganization                        
+RegisteredOwner           Windows User        
+InstallDate               2022-08-27 08:11:09Z
+
+-----------------------------------------------------------------------------
+
+Use this for filecarving
+vol.py -f  Snapshot1.vmem --profile=Win7SP1x64 printkey -K "Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs"
+vol.py -f  Snapshot1.vmem --profile=Win7SP1x64 printkey -K "Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.png"
+vol.py -f  Snapshot1.vmem --profile=Win7SP1x64 printkey -K "Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.txt"
+vol.py -f  Snapshot1.vmem --profile=Win7SP1x64 printkey -K "Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\Folder"
+     
+-----------------------------------------------------------------------------
+
+Google: windows 7 web search registry
+
+$ rip.pl -r registry.0xfffff8a000024010.SYSTEM.reg -p prefetch
+Launching prefetch v.20200515
+prefetch v.20200515
+(System) Gets the the Prefetch Parameters
+
+EnablePrefetcher    = 3
+
+0 = Prefetching is disabled
+1 = Application prefetching is enabled
+2 = Boot prefetching is enabled
+3 = Both boot and application prefetching is enabled
+
+-----------------------------------------------------------------------------
+
+regripper internet explorer
+https://blog.digital-forensics.it/2012/05/exploring-internet-explorer-with.html
+
+vol.py -f  Snapshot1.vmem --profile=Win7SP1x64 hivelist
+use physical address for:
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 dumpfiles -Q <physical address> -D <location>
+
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 filescan | grep -i "NTUSER.DAT"
+
+Google: vmem internet explorer
+https://volatility-labs.blogspot.com/2012/09/howto-scan-for-internet-cachehistory.html
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 pslist | grep iexplore
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 procdump -p <>-D <>
+
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 filescan | grep "index.dat"
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 dumpfiles -Q 0x000000007e1d6ea0 -D '/home/sansforensics/Downloads/evidence_B/IE'
+
+see pasco.txt
+
+-----------------------------------------------------------------------------
+
+Google: Volatility Chrome
+
+https://blog.superponible.com/2014/08/31/volatility-plugin-chrome-history/
+
+vol.py --plugins=plugins/ -f Snapshot1.vmem --profile=Win7SP1x64 chromesearchterms
+vol.py --plugins=plugins/ -f Snapshot1.vmem --profile=Win7SP1x64 chromevisits
+vol.py --plugins=plugins/ -f Snapshot1.vmem --profile=Win7SP1x64 chromehistory
+
+-----------------------------------------------------------------------------
+
+Mail Search
+
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 filescan | grep -i Thunderbird
+strings Snapshot1.vmem | grep maildir
+
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 filescan | grep -i Thunderbird | cat > '/home/sansforensics/Downloads/evidence_B/Email/Thunderbird.txt'
+
+
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 filescan | grep -i Thunderbird 
+"0x000000007e258b70     16      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\ImapMail\imap.gmail.com\[Gmail].sbd\All Mail"
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 dumpfiles -Q 0x000000007e258b70 -D '/home/sansforensics/Downloads/evidence_B/Email'
+
+See EasonEmail.docx
+file.None.0xfffffa801a4451e0.dat

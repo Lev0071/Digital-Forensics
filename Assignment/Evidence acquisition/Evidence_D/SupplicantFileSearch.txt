@@ -1,0 +1,30 @@
+sudo mount -o loop,ro,noexec,noload dm-0 /mnt/e01
+sudo ls /mnt/e01
+sudo grep -ir "wpa_supplicant.conf" /mnt/e01
+sudo umount /mnt/e01
+
+sudo mount -o loop,ro,noexec,noload dm-1 /mnt/e01
+sudo ls /mnt/e01
+sudo grep -ir "wpa_supplicant.conf" /mnt/e01
+sudo umount /mnt/e01
+
+root@siftworkstation:/home/sansforensics/Downloads/evidence_D# find /mnt/e01 -name wifi
+/mnt/e01/misc/wifi
+/mnt/e01/vendor/tombstones/wifi
+/mnt/e01/vendor/wifi
+/mnt/e01/misc_ce/0/wifi
+
+sudo mount -o loop,ro,noexec,noload vda1 /mnt/e01
+sudo ls /mnt/e01
+sudo grep -ir "wpa_supplicant.conf" /mnt/e01
+sudo umount /mnt/e01
+
+sudo mount -o loop,ro,noexec,noload vdb /mnt/e01
+sudo ls /mnt/e01
+sudo grep -ir "wpa_supplicant.conf" /mnt/e01
+sudo umount /mnt/e01
+
+sudo mount -o loop,ro,noexec,noload vde1 /mnt/e01
+sudo ls /mnt/e01
+sudo grep -ir "wpa_supplicant.conf" /mnt/e01
+sudo umount /mnt/e01

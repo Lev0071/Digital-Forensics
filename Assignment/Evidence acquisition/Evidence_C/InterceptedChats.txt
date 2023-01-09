@@ -1,0 +1,125 @@
+42["commands",["/as","/away","/back","/ban","/banlist","/bs","/close","/collapse","/connect","/cs","/ctcp","/cycle","/dehop","/deop","/devoice","/disconnect","/expand","/ho","/hop","/hs","/ignore","/ignorelist","/invite","/invitelist","/join","/kick","/kill","/leave","/list","/me","/mode","/ms","/msg","/nick","/notice","/ns","/op","/os","/part","/query","/quit","/quote","/raw","/rejoin","/rs","/say","/send","/server","/slap","/topic","/unban","/unignore","/voice","/whois"]]
+R42["setting:all",{"advanced":false,"autocomplete":true,"nickPostfix":"","coloredNicks":true,"highlights":"","highlightExceptions":"","awayMessage":"","links":true,"motd":true,"notifyAllMessages":false,"showSeconds":false,"use12hClock":false,"statusMessages":"condensed","theme":"default","media":true,"uploadCanvas":true,"userStyles":""}]
+42["join",{"network":"439dd4e3-b6f7-4cad-ab28-b2d35de10533","chan":{"name":"#FederalLawEnforcementAgency","state":1,"id":5,"messages":[],"totalMessages":0,"key":"","topic":"","type":"channel","firstUnread":0,"unread":0,"highlight":0,"users":[]},"index":1}]P
+42["msg",{"chan":5,"msg":{"from":{"mode":"","nick":"Eason"},"time":"2022-08-28T02:05:04.352Z","hostmask":"user1@127.0.0.1","type":"join","self":true,"id":38,"previews":[],"text":""}}]P
+42["users",{"chan":5}]P
+42["users",{"chan":5}]P
+42["open",5]P
+J42["names",{"id":5,"users":[{"nick":"Eason","mode":"@","lastMessage":0}]}]P
+42["msg",{"chan":5,"msg":{"type":"mode_channel","text":"+nt ","from":{},"id":39,"previews":[],"self":false,"time":"2022-08-28T02:05:06.356Z"}}]R
+42["join",{"network":"9a5ab82b-ec8c-4582-9b47-0730a8deaff2","chan":{"name":"#FederalLawEnforcementAgency","state":1,"id":3,"messages":[],"totalMessages":0,"key":"","topic":"","type":"channel","firstUnread":0,"unread":0,"highlight":0,"users":[]},"index":1}]m
+42["msg",{"chan":3,"msg":{"from":{"mode":"","nick":"Benji"},"time":"2022-08-28T02:05:33.419Z","hostmask":"user2@127.0.0.1","type":"join","self":true,"id":22,"previews":[],"text":""}}]m
+42["users",{"chan":3}]m
+42["users",{"chan":3}]m
+42["msg",{"chan":5,"msg":{"from":{"mode":"","nick":"Benji"},"time":"2022-08-28T02:05:33.420Z","hostmask":"user2@127.0.0.1","type":"join","self":false,"id":40,"previews":[],"text":""}}]m
+42["users",{"chan":5}]m
+u42["names",{"id":5,"users":[{"nick":"Eason","mode":"@","lastMessage":0},{"nick":"Benji","mode":"","lastMessage":0}]}]m
+42["msg",{"chan":3,"msg":{"type":"mode_channel","text":"+nt ","from":{},"id":23,"previews":[],"self":false,"time":"2022-08-28T02:05:35.425Z"}}]o
+L42["join",{"network":"fbf22ec7-012d-4e49-87e5-40046557dd7d","chan":{"type":"special","special":"list_channels","name":"Channel List","data":{"text":"Loading channel list, this can take a moment..."},"id":3,"messages":[],"totalMessages":0,"key":"","topic":"","state":0,"firstUnread":0,"unread":0,"highlight":0,"users":[]},"index":1}]
+C42["msg:special",{"chan":3,"data":{"text":"Loaded 2 channels..."}}]
+42["msg:special",{"chan":3,"data":[{"channel":"#FederalLawEnforcementAgency","num_users":2,"topic":"[+nt] ","tags":{}},{"channel":"#thelounge","num_users":1,"topic":"[+nt] ","tags":{}}]}]
+42["msg",{"chan":5,"msg":{"from":{"mode":"","nick":"Tony"},"time":"2022-08-28T02:06:03.738Z","hostmask":"user3@127.0.0.1","type":"join","self":false,"id":41,"previews":[],"text":""}}]
+42["users",{"chan":5}]
+42["msg",{"chan":3,"msg":{"from":{"mode":"","nick":"Tony"},"time":"2022-08-28T02:06:03.738Z","hostmask":"user3@127.0.0.1","type":"join","self":false,"id":24,"previews":[],"text":""}}]
+42["users",{"chan":3}]
+42["join",{"network":"fbf22ec7-012d-4e49-87e5-40046557dd7d","chan":{"name":"#FederalLawEnforcementAgency","state":1,"id":4,"messages":[],"totalMessages":0,"key":"","topic":"","type":"channel","firstUnread":0,"unread":0,"highlight":0,"users":[]},"index":1}]
+42["msg",{"chan":4,"msg":{"from":{"mode":"","nick":"Tony"},"time":"2022-08-28T02:06:03.739Z","hostmask":"user3@127.0.0.1","type":"join","self":true,"id":25,"previews":[],"text":""}}]
+42["users",{"chan":4}]
+42["users",{"chan":4}]
+42["msg",{"chan":4,"msg":{"type":"mode_channel","text":"+nt ","from":{},"id":26,"previews":[],"self":false,"time":"2022-08-28T02:06:05.742Z"}}]
+42["msg",{"chan":5,"msg":{"from":{"mode":"@","nick":"Eason"},"type":"message","time":"2022-08-28T02:06:33.050Z","text":"Benji, read this message carefully. I might not have much time left","self":true,"highlight":false,"users":["Benji"],"id":42,"previews":[]}}]
+42["msg",{"chan":3,"msg":{"from":{"mode":"@","nick":"Eason"},"type":"message","time":"2022-08-28T02:06:33.094Z","text":"Benji, read this message carefully. I might not have much time left","self":false,"highlight":true,"users":["Benji"],"id":25,"previews":[]}}]
+42["msg",{"chan":4,"msg":{"from":{"mode":"@","nick":"Eason"},"type":"message","time":"2022-08-28T02:06:33.095Z","text":"Benji, read this message carefully. I might not have much time left","self":false,"highlight":false,"users":["Benji"],"id":27,"previews":[]}}]
+42["msg",{"chan":3,"msg":{"from":{"mode":"","nick":"Benji"},"type":"message","time":"2022-08-28T02:06:46.030Z","text":"Whats wrong Eason?","self":true,"highlight":false,"users":["Eason"],"id":26,"previews":[]}}]
+42["msg",{"chan":5,"msg":{"from":{"mode":"","nick":"Benji"},"type":"message","time":"2022-08-28T02:06:46.030Z","text":"Whats wrong Eason?","self":false,"highlight":true,"users":["Eason"],"id":43,"previews":[]}}]
+42["msg",{"chan":4,"msg":{"from":{"mode":"","nick":"Benji"},"type":"message","time":"2022-08-28T02:06:46.031Z","text":"Whats wrong Eason?","self":false,"highlight":false,"users":["Eason"],"id":28,"previews":[]}}]
+642["msg",{"chan":5,"msg":{"from":{"mode":"@","nick":"Eason"},"type":"message","time":"2022-08-28T02:06:58.107Z","text":"Erika Sloane asked me to deliver a package from the Russian embassy in London to Morocco. But it wasnt the real embassy.","self":true,"highlight":false,"users":[],"id":44,"previews":[]}}]
+742["msg",{"chan":3,"msg":{"from":{"mode":"@","nick":"Eason"},"type":"message","time":"2022-08-28T02:06:58.107Z","text":"Erika Sloane asked me to deliver a package from the Russian embassy in London to Morocco. But it wasnt the real embassy.","self":false,"highlight":false,"users":[],"id":27,"previews":[]}}]
+742["msg",{"chan":4,"msg":{"from":{"mode":"@","nick":"Eason"},"type":"message","time":"2022-08-28T02:06:58.108Z","text":"Erika Sloane asked me to deliver a package from the Russian embassy in London to Morocco. But it wasnt the real embassy.","self":false,"highlight":false,"users":[],"id":29,"previews":[]}}]
+42["msg",{"chan":3,"msg":{"from":{"mode":"","nick":"Benji"},"type":"message","time":"2022-08-28T02:07:08.892Z","text":"What are you talking Eason? Erika Sloane? That Erika Sloane?","self":true,"highlight":false,"users":["Eason"],"id":28,"previews":[]}}]
+42["msg",{"chan":5,"msg":{"from":{"mode":"","nick":"Benji"},"type":"message","time":"2022-08-28T02:07:08.893Z","text":"What are you talking Eason? Erika Sloane? That Erika Sloane?","self":false,"highlight":true,"users":["Eason"],"id":45,"previews":[]}}]
+42["msg",{"chan":4,"msg":{"from":{"mode":"","nick":"Benji"},"type":"message","time":"2022-08-28T02:07:08.893Z","text":"What are you talking Eason? Erika Sloane? That Erika Sloane?","self":false,"highlight":false,"users":["Eason"],"id":30,"previews":[]}}]
+?42["msg",{"chan":5,"msg":{"from":{"mode":"@","nick":"Eason"},"type":"message","time":"2022-08-28T02:07:20.726Z","text":"I have some insurance, in case this whole thing blows up.  Its in the usual place. Promise me you will store it in a safe place. ","self":true,"highlight":false,"users":[],"id":46,"previews":[]}}]
+@42["msg",{"chan":3,"msg":{"from":{"mode":"@","nick":"Eason"},"type":"message","time":"2022-08-28T02:07:20.727Z","text":"I have some insurance, in case this whole thing blows up.  Its in the usual place. Promise me you will store it in a safe place. ","self":false,"highlight":false,"users":[],"id":29,"previews":[]}}]
+@42["msg",{"chan":4,"msg":{"from":{"mode":"@","nick":"Eason"},"type":"message","time":"2022-08-28T02:07:20.727Z","text":"I have some insurance, in case this whole thing blows up.  Its in the usual place. Promise me you will store it in a safe place. ","self":false,"highlight":false,"users":[],"id":31,"previews":[]}}]
+42["msg",{"chan":3,"msg":{"from":{"mode":"","nick":"Benji"},"type":"message","time":"2022-08-28T02:07:31.836Z","text":"For sure my friend. I will upload it to my Onedrive. Stay safe","self":true,"highlight":false,"users":[],"id":30,"previews":[]}}]
+42["msg",{"chan":5,"msg":{"from":{"mode":"","nick":"Benji"},"type":"message","time":"2022-08-28T02:07:31.837Z","text":"For sure my friend. I will upload it to my Onedrive. Stay safe","self":false,"highlight":false,"users":[],"id":47,"previews":[]}}]
+42["msg",{"chan":4,"msg":{"from":{"mode":"","nick":"Benji"},"type":"message","time":"2022-08-28T02:07:31.837Z","text":"For sure my friend. I will upload it to my Onedrive. Stay safe","self":false,"highlight":false,"users":[],"id":32,"previews":[]}}]
+42["msg",{"chan":5,"msg":{"from":{"mode":"@","nick":"Eason"},"type":"message","time":"2022-08-28T02:07:42.549Z","text":"Thx. TTYL","self":true,"highlight":false,"users":[],"id":48,"previews":[]}}]
+42["msg",{"chan":3,"msg":{"from":{"mode":"@","nick":"Eason"},"type":"message","time":"2022-08-28T02:07:42.549Z","text":"Thx. TTYL","self":false,"highlight":false,"users":[],"id":31,"previews":[]}}]
+42["msg",{"chan":4,"msg":{"from":{"mode":"@","nick":"Eason"},"type":"message","time":"2022-08-28T02:07:42.554Z","text":"Thx. TTYL","self":false,"highlight":false,"users":[],"id":33,"previews":[]}}]
+42["msg",{"chan":5,"msg":{"from":{"mode":"","nick":"Tony"},"type":"message","time":"2022-08-28T02:09:28.542Z","text":"Eason, the bioweapons came from a previous Soviet biological weapons program","self":false,"highlight":true,"users":["Eason"],"id":49,"previews":[]}}]X
+42["msg",{"chan":3,"msg":{"from":{"mode":"","nick":"Tony"},"type":"message","time":"2022-08-28T02:09:28.542Z","text":"Eason, the bioweapons came from a previous Soviet biological weapons program","self":false,"highlight":false,"users":["Eason"],"id":32,"previews":[]}}]X
+42["msg",{"chan":5,"msg":{"from":{"mode":"@","nick":"Eason"},"type":"message","time":"2022-08-28T02:09:50.266Z","text":"Thanks, Tony. I owe you one.","self":true,"highlight":false,"users":["Tony"],"id":50,"previews":[]}}]n
+42["msg",{"chan":3,"msg":{"from":{"mode":"@","nick":"Eason"},"type":"message","time":"2022-08-28T02:09:50.267Z","text":"Thanks, Tony. I owe you one.","self":false,"highlight":false,"users":["Tony"],"id":33,"previews":[]}}]n
+42["msg",{"chan":4,"msg":{"from":{"mode":"@","nick":"Eason"},"type":"message","time":"2022-08-28T02:09:50.267Z","text":"Thanks, Tony. I owe you one.","self":false,"highlight":true,"users":["Tony"],"id":35,"previews":[]}}]n
+42["msg",{"chan":3,"msg":{"from":{"mode":"","nick":"Benji"},"type":"part","time":"2022-08-28T02:10:13.335Z","text":"The Lounge - https://thelounge.chat","hostmask":"user2@127.0.0.1","self":true,"id":34,"previews":[]}}]
+42["msg",{"chan":5,"msg":{"from":{"mode":"","nick":"Benji"},"type":"part","time":"2022-08-28T02:10:13.335Z","text":"The Lounge - https://thelounge.chat","hostmask":"user2@127.0.0.1","self":false,"id":51,"previews":[]}}]
+42["msg",{"chan":4,"msg":{"from":{"mode":"","nick":"Benji"},"type":"part","time":"2022-08-28T02:10:13.336Z","text":"The Lounge - https://thelounge.chat","hostmask":"user2@127.0.0.1","self":false,"id":36,"previews":[]}}]
+42["msg",{"chan":4,"msg":{"from":{"mode":"","nick":"Tony"},"type":"message","time":"2022-08-28T02:10:21.807Z","text":"Buy me some KFC next time when you are in the office","self":true,"highlight":false,"users":[],"id":37,"previews":[]}}]
+42["msg",{"chan":5,"msg":{"from":{"mode":"","nick":"Tony"},"type":"message","time":"2022-08-28T02:10:21.807Z","text":"Buy me some KFC next time when you are in the office","self":false,"highlight":false,"users":[],"id":52,"previews":[]}}]
+42["msg",{"chan":5,"msg":{"from":{"mode":"@","nick":"Eason"},"type":"message","time":"2022-08-28T02:10:34.556Z","text":"I dont know if I can come back","self":true,"highlight":false,"users":[],"id":53,"previews":[]}}]
+42["msg",{"chan":4,"msg":{"from":{"mode":"@","nick":"Eason"},"type":"message","time":"2022-08-28T02:10:34.556Z","text":"I dont know if I can come back","self":false,"highlight":false,"users":[],"id":38,"previews":[]}}]
+42["msg",{"chan":4,"msg":{"from":{"mode":"","nick":"Tony"},"type":"message","time":"2022-08-28T02:10:46.128Z","text":"Its just KFC. dont be stingy","self":true,"highlight":false,"users":[],"id":39,"previews":[]}}]
+42["msg",{"chan":5,"msg":{"from":{"mode":"","nick":"Tony"},"type":"message","time":"2022-08-28T02:10:46.129Z","text":"Its just KFC. dont be stingy","self":false,"highlight":false,"users":[],"id":54,"previews":[]}}]
+42["msg",{"chan":5,"msg":{"from":{"mode":"@","nick":"Eason"},"type":"part","time":"2022-08-28T02:11:31.165Z","text":"The Lounge - https://thelounge.chat","hostmask":"user1@127.0.0.1","self":true,"id":55,"previews":[]}}]
+42["part",{"chan":5}]
+42["msg",{"chan":4,"msg":{"from":{"mode":"@","nick":"Eason"},"type":"part","time":"2022-08-28T02:11:31.167Z","text":"The Lounge - https://thelounge.chat","hostmask":"user1@127.0.0.1","self":false,"id":40,"previews":[]}}]
+L42["join",{"network":"9a5ab82b-ec8c-4582-9b47-0730a8deaff2","chan":{"type":"special","special":"list_channels","name":"Channel List","data":{"text":"Loading channel list, this can take a moment..."},"id":4,"messages":[],"totalMessages":0,"key":"","topic":"","state":0,"firstUnread":0,"unread":0,"highlight":0,"users":[]},"index":1}]{
+42["join",{"network":"9a5ab82b-ec8c-4582-9b47-0730a8deaff2","chan":{"name":"#FederalLawEnforcementAgency","state":1,"id":5,"messages":[],"totalMessages":0,"key":"","topic":"","type":"channel","firstUnread":0,"unread":0,"highlight":0,"users":[]},"index":1}]
+42["msg",{"chan":5,"msg":{"from":{"mode":"","nick":"Benji"},"time":"2022-08-28T02:14:24.383Z","hostmask":"user2@127.0.0.1","type":"join","self":true,"id":35,"previews":[],"text":""}}]
+42["users",{"chan":5}]
+42["users",{"chan":5}]
+42["msg",{"chan":4,"msg":{"from":{"mode":"","nick":"Benji"},"time":"2022-08-28T02:14:24.384Z","hostmask":"user2@127.0.0.1","type":"join","self":false,"id":41,"previews":[],"text":""}}]
+42["users",{"chan":4}]
+42["names",{"id":4,"users":[{"nick":"Benji","mode":"","lastMessage":0},{"nick":"Tony","mode":"","lastMessage":1661652646128}]}]
+42["msg",{"chan":5,"msg":{"type":"mode_channel","text":"+nt ","from":{},"id":36,"previews":[],"self":false,"time":"2022-08-28T02:14:26.387Z"}}]
+42["msg",{"chan":4,"msg":{"from":{"mode":"","nick":"Tony"},"type":"message","time":"2022-08-28T02:14:46.186Z","text":"I just did Eason a favour but he is not willing to buy KFC for me
+","self":true,"highlight":false,"users":[],"id":42,"previews":[]}}]
+42["msg",{"chan":5,"msg":{"from":{"mode":"","nick":"Tony"},"type":"message","time":"2022-08-28T02:14:46.186Z","text":"I just did Eason a favour but he is not willing to buy KFC for me
+","self":false,"highlight":false,"users":[],"id":37,"previews":[]}}]
+42["msg",{"chan":5,"msg":{"from":{"mode":"","nick":"Benji"},"type":"message","time":"2022-08-28T02:14:58.511Z","text":"idk. he sounds a bit under the weather today","self":true,"highlight":false,"users":[],"id":38,"previews":[]}}]
+42["msg",{"chan":4,"msg":{"from":{"mode":"","nick":"Benji"},"type":"message","time":"2022-08-28T02:14:58.511Z","text":"idk. he sounds a bit under the weather today","self":false,"highlight":false,"users":[],"id":43,"previews":[]}}]
+42["msg",{"chan":4,"msg":{"from":{"mode":"","nick":"Tony"},"type":"message","time":"2022-08-28T02:15:07.670Z","text":"I know right","self":true,"highlight":false,"users":[],"id":44,"previews":[]}}]
+42["msg",{"chan":5,"msg":{"from":{"mode":"","nick":"Tony"},"type":"message","time":"2022-08-28T02:15:07.671Z","text":"I know right","self":false,"highlight":false,"users":[],"id":39,"previews":[]}}]
+42["msg",{"chan":5,"msg":{"from":{"mode":"","nick":"Benji"},"type":"message","time":"2022-08-28T02:15:27.217Z","text":"He asked me to store something for him, but I don
+t know. I have no space on my one drive.","self":true,"highlight":false,"users":[],"id":40,"previews":[]}}]
+42["msg",{"chan":4,"msg":{"from":{"mode":"","nick":"Benji"},"type":"message","time":"2022-08-28T02:15:27.218Z","text":"He asked me to store something for him, but I don
+t know. I have no space on my one drive.","self":false,"highlight":false,"users":[],"id":45,"previews":[]}}]
+42["msg",{"chan":4,"msg":{"from":{"mode":"","nick":"Tony"},"type":"message","time":"2022-08-28T02:15:41.093Z","text":"Free for coffee?","self":true,"highlight":false,"users":[],"id":46,"previews":[]}}]
+42["msg",{"chan":5,"msg":{"from":{"mode":"","nick":"Tony"},"type":"message","time":"2022-08-28T02:15:41.093Z","text":"Free for coffee?","self":false,"highlight":false,"users":[],"id":41,"previews":[]}}]
+42["msg",{"chan":4,"msg":{"from":{"mode":"","nick":"Tony"},"type":"message","time":"2022-08-28T02:15:55.121Z","text":"where to meet?","self":true,"highlight":false,"users":[],"id":47,"previews":[]}}]
+42["msg",{"chan":5,"msg":{"from":{"mode":"","nick":"Tony"},"type":"message","time":"2022-08-28T02:15:55.122Z","text":"where to meet?","self":false,"highlight":false,"users":[],"id":42,"previews":[]}}]
+42["msg",{"chan":5,"msg":{"from":{"mode":"","nick":"Benji"},"type":"message","time":"2022-08-28T02:16:13.317Z","text":"where to meet indeed","self":true,"highlight":false,"users":[],"id":43,"previews":[]}}]
+42["msg",{"chan":4,"msg":{"from":{"mode":"","nick":"Benji"},"type":"message","time":"2022-08-28T02:16:13.318Z","text":"where to meet indeed","self":false,"highlight":false,"users":[],"id":48,"previews":[]}}]
+42["join",{"network":"d0effdca-0c7f-425f-8829-f0f659a4f30e","chan":{"name":"#Syndicate","state":1,"id":7,"messages":[],"totalMessages":0,"key":"","topic":"","type":"channel","firstUnread":0,"unread":0,"highlight":0,"users":[]},"index":1}]
+42["msg",{"chan":7,"msg":{"from":{"mode":"","nick":"Syndicate1"},"time":"2022-08-28T02:16:39.484Z","hostmask":"user4@127.0.0.1","type":"join","self":true,"id":68,"previews":[],"text":""}}]
+42["users",{"chan":7}]
+42["users",{"chan":7}]
+42["open",7]	
+O42["names",{"id":7,"users":[{"nick":"Syndicate1","mode":"@","lastMessage":0}]}]	
+O42["names",{"id":7,"users":[{"nick":"Syndicate1","mode":"@","lastMessage":0}]}]	
+O42["names",{"id":7,"users":[{"nick":"Syndicate1","mode":"@","lastMessage":0}]}]
+42["msg",{"chan":7,"msg":{"type":"mode_channel","text":"+nt ","from":{},"id":69,"previews":[],"self":false,"time":"2022-08-28T02:16:41.062Z"}}]	
+L42["join",{"network":"65167699-1c87-4cc5-ad52-fda442d06e36","chan":{"type":"special","special":"list_channels","name":"Channel List","data":{"text":"Loading channel list, this can take a moment..."},"id":3,"messages":[],"totalMessages":0,"key":"","topic":"","state":0,"firstUnread":0,"unread":0,"highlight":0,"users":[]},"index":1}]
+C42["msg:special",{"chan":3,"data":{"text":"Loaded 3 channels..."}}]
+42["msg:special",{"chan":3,"data":[{"channel":"#FederalLawEnforcementAgency","num_users":2,"topic":"[+nt] ","tags":{}},{"channel":"#thelounge","num_users":1,"topic":"[+nt] ","tags":{}},{"channel":"#Syndicate","num_users":1,"topic":"[+nt] ","tags":{}}]}]	+@
+42["msg",{"chan":7,"msg":{"from":{"mode":"","nick":"Syndicate2"},"time":"2022-08-28T02:16:53.396Z","hostmask":"user5@127.0.0.1","type":"join","self":false,"id":70,"previews":[],"text":""}}]
+42["users",{"chan":7}]
+42["join",{"network":"65167699-1c87-4cc5-ad52-fda442d06e36","chan":{"name":"#Syndicate","state":1,"id":4,"messages":[],"totalMessages":0,"key":"","topic":"","type":"channel","firstUnread":0,"unread":0,"highlight":0,"users":[]},"index":1}]
+42["msg",{"chan":4,"msg":{"from":{"mode":"","nick":"Syndicate2"},"time":"2022-08-28T02:16:53.401Z","hostmask":"user5@127.0.0.1","type":"join","self":true,"id":20,"previews":[],"text":""}}]
+42["users",{"chan":4}]
+42["users",{"chan":4}]
+42["names",{"id":7,"users":[{"nick":"Syndicate1","mode":"@","lastMessage":0},{"nick":"Syndicate2","mode":"","lastMessage":0}]}]
+42["names",{"id":4,"users":[{"nick":"Syndicate1","mode":"@","lastMessage":0},{"nick":"Syndicate2","mode":"","lastMessage":0}]}]
+42["names",{"id":4,"users":[{"nick":"Syndicate1","mode":"@","lastMessage":0},{"nick":"Syndicate2","mode":"","lastMessage":0}]}]
+42["names",{"id":4,"users":[{"nick":"Syndicate1","mode":"@","lastMessage":0},{"nick":"Syndicate2","mode":"","lastMessage":0}]}]	,@
+42["msg",{"chan":4,"msg":{"type":"mode_channel","text":"+nt ","from":{},"id":21,"previews":[],"self":false,"time":"2022-08-28T02:16:55.405Z"}}]
+42["msg",{"chan":7,"msg":{"from":{"mode":"@","nick":"Syndicate1"},"type":"message","time":"2022-08-28T02:20:22.701Z","text":"Benji Dunn just downloaded something from the drop zone.  Its encrypted.","self":true,"highlight":false,"users":[],"id":71,"previews":[]}}]
+42["msg",{"chan":4,"msg":{"from":{"mode":"@","nick":"Syndicate1"},"type":"message","time":"2022-08-28T02:20:22.702Z","text":"Benji Dunn just downloaded something from the drop zone.  Its encrypted.","self":false,"highlight":false,"users":[],"id":22,"previews":[]}}]
+42["msg",{"chan":4,"msg":{"from":{"mode":"","nick":"Syndicate2"},"type":"message","time":"2022-08-28T02:20:36.021Z","text":"Dont worry we are on the inside.  I will upload the key.","self":true,"highlight":false,"users":[],"id":23,"previews":[]}}]
+42["msg",{"chan":7,"msg":{"from":{"mode":"","nick":"Syndicate2"},"type":"message","time":"2022-08-28T02:20:36.022Z","text":"Dont worry we are on the inside.  I will upload the key.","self":false,"highlight":false,"users":[],"id":72,"previews":[]}}]
+42["msg",{"chan":7,"msg":{"from":{"mode":"@","nick":"Syndicate1"},"type":"message","time":"2022-08-28T02:20:53.507Z","text":"From Dunn's PC?","self":true,"highlight":false,"users":[],"id":73,"previews":[]}}]
+42["msg",{"chan":4,"msg":{"from":{"mode":"@","nick":"Syndicate1"},"type":"message","time":"2022-08-28T02:20:54.509Z","text":"From Dunn's PC?","self":false,"highlight":false,"users":[],"id":24,"previews":[]}}]
+42["msg",{"chan":4,"msg":{"from":{"mode":"","nick":"Syndicate2"},"type":"message","time":"2022-08-28T02:20:58.647Z","text":"Yes","self":true,"highlight":false,"users":[],"id":25,"previews":[]}}]
+42["msg",{"chan":7,"msg":{"from":{"mode":"","nick":"Syndicate2"},"type":"message","time":"2022-08-28T02:20:58.648Z","text":"Yes","self":false,"highlight":false,"users":[],"id":74,"previews":[]}}]

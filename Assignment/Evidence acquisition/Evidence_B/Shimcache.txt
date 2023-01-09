@@ -1,0 +1,161 @@
+Last Modified                  Path
+------------------------------ ----
+2010-11-21 03:24:09 UTC+0000   \??\C:\Windows\system32\LogonUI.exe
+2010-11-21 03:24:42 UTC+0000   \??\C:\Windows\System32\ieframe.dll
+2009-07-14 01:39:37 UTC+0000   \??\C:\Windows\system32\SearchProtocolHost.exe
+2009-07-14 01:39:37 UTC+0000   \??\C:\Windows\system32\SearchFilterHost.exe
+2010-11-21 03:25:08 UTC+0000   \??\C:\Program Files (x86)\Internet Explorer\iexplore.exe
+2010-11-21 03:24:28 UTC+0000   \??\C:\Windows\System32\timedate.cpl
+2009-07-14 01:39:31 UTC+0000   \??\C:\WINDOWS\SYSTEM32\RUNDLL32.EXE
+2009-07-14 01:14:18 UTC+0000   \??\C:\Windows\SysWOW64\DllHost.exe
+2009-07-14 01:39:01 UTC+0000   \??\C:\Windows\system32\control.exe
+2009-07-14 01:39:06 UTC+0000   \??\C:\Windows\system32\DllHost.exe
+2010-11-21 03:24:08 UTC+0000   \??\C:\Windows\system32\consent.exe
+2016-02-09 04:04:14 UTC+0000   \??\C:\Users\Eason\Downloads\Chrome64_48.0.2564.109\chrome.exe
+2010-11-21 03:23:51 UTC+0000   \??\C:\Windows\System32\ntshrui.dll
+2010-11-21 03:24:41 UTC+0000   \??\C:\Windows\System32\cscui.dll
+2009-07-14 01:40:36 UTC+0000   \??\C:\Windows\System32\EhStorShell.dll
+2010-11-21 03:24:11 UTC+0000   \??\C:\Windows\Explorer.EXE
+2009-07-14 01:39:59 UTC+0000   \??\C:\Windows\system32\xpsrchvw.exe
+2010-11-21 03:24:09 UTC+0000   \??\C:\Windows\system32\wuapp.exe
+2010-11-21 03:25:10 UTC+0000   \??\C:\Program Files (x86)\Windows Media Player\wmplayer.exe
+2009-07-14 01:39:09 UTC+0000   \??\C:\Windows\ehome\ehshell.exe
+2010-11-21 03:25:07 UTC+0000   \??\C:\Windows\system32\WFS.exe
+2009-07-14 01:39:08 UTC+0000   \??\C:\Program Files\DVD Maker\DVDMaker.exe
+2021-08-25 10:03:22 UTC+0000   \??\C:\Program Files\Mozilla Thunderbird\thunderbird.exe
+2010-11-21 03:24:43 UTC+0000   \??\C:\Program Files\Internet Explorer\iexplore.exe
+2010-11-21 03:24:51 UTC+0000   \??\C:\Program Files\Windows Sidebar\sidebar.exe
+2021-08-25 10:03:23 UTC+0000   \??\C:\Program Files\Mozilla Thunderbird\pingsender.exe
+2009-07-14 01:39:16 UTC+0000   \??\C:\Windows\system32\magnify.exe
+2009-07-14 01:39:24 UTC+0000   \??\C:\Windows\system32\mspaint.exe
+2009-07-14 01:38:57 UTC+0000   \??\C:\Windows\system32\calc.exe
+2009-07-14 01:39:41 UTC+0000   \??\C:\Windows\system32\SnippingTool.exe
+2009-07-14 01:39:46 UTC+0000   \??\C:\Windows\system32\StikyNot.exe
+2010-11-21 03:23:56 UTC+0000   \??\C:\Windows\system32\mstsc.exe
+2009-07-14 01:39:06 UTC+0000   \??\C:\Windows\system32\displayswitch.exe
+2021-08-25 10:03:23 UTC+0000   \??\C:\Program Files\Mozilla Thunderbird\uninstall\helper.exe
+2010-11-21 03:24:08 UTC+0000   \??\C:\Windows\system32\taskhost.exe
+2009-07-14 01:41:57 UTC+0000   \??\C:\Program Files\Windows Media Player\WMPNSSUI.dll
+2021-08-21 11:16:23 UTC+0000   \??\C:\Users\Eason\Downloads\mynotepad++.exe
+2021-08-21 11:16:23 UTC+0000   \??\C:\Users\Eason\Downloads\mynotepad++_original.exe
+2021-08-25 10:03:23 UTC+0000   \??\C:\Program Files (x86)\Mozilla Maintenance Service\update\updater.exe
+2021-08-25 10:03:23 UTC+0000   \??\C:\Program Files (x86)\Mozilla Maintenance Service\maintenanceservice.exe
+2021-08-25 10:03:23 UTC+0000   \??\C:\Program Files\Mozilla Thunderbird\updater.exe
+2021-08-28 11:45:38 UTC+0000   \??\C:\Users\Eason\Downloads\Thunderbird Setup 91.0.3.exe
+2021-08-28 12:04:12 UTC+0000   \??\C:\Users\Eason\Downloads\reshacker_setup.exe
+2021-08-28 11:51:20 UTC+0000   \??\C:\Users\Eason\Downloads\chrome64_48.0.2564.109.exe
+2010-11-21 03:24:15 UTC+0000   \??\C:\Windows\SysWOW64\networkexplorer.dll
+2010-11-21 03:24:01 UTC+0000   \??\C:\Windows\SysWOW64\ntshrui.dll
+2009-07-14 01:15:14 UTC+0000   \??\C:\Windows\SysWOW64\EhStorShell.dll
+2020-11-19 23:27:52 UTC+0000   \??\C:\Program Files (x86)\Resource Hacker\ResourceHacker.exe
+2010-11-21 03:25:08 UTC+0000   \??\C:\Windows\SysWOW64\ie4uinit.exe
+2010-11-21 03:24:23 UTC+0000   \??\C:\Windows\System32\acppage.dll
+2022-08-27 12:40:24 UTC+0000   \??\C:\Program Files (x86)\Resource Hacker\unins000.exe
+2010-11-21 03:25:06 UTC+0000   \??\C:\Program Files\Windows Photo Viewer\PhotoViewer.dll
+2009-07-14 01:41:53 UTC+0000   \??\C:\Windows\System32\PhotoMetadataHandler.dll
+2021-08-25 10:03:23 UTC+0000   \??\C:\Program Files\Mozilla Thunderbird\maintenanceservice_installer.exe
+2009-07-14 01:39:29 UTC+0000   \??\C:\Windows\System32\regsvr32.exe
+2010-11-21 03:24:07 UTC+0000   \??\C:\Windows\SysWOW64\shdocvw.dll
+2021-08-25 10:03:23 UTC+0000   \??\C:\Users\Eason\AppData\Local\Temp\7zSC8A8B525\setup.exe
+2022-08-27 12:40:24 UTC+0000   \??\C:\Users\Eason\AppData\Local\Temp\is-32GRC.tmp\reshacker_setup.tmp
+2022-08-27 12:40:23 UTC+0000   \??\C:\Users\Eason\AppData\Local\Temp\is-HM71D.tmp\reshacker_setup.tmp
+2016-02-09 04:04:03 UTC+0000   \??\C:\Users\Eason\Downloads\Chrome64_48.0.2564.109\48.0.2564.109\delegate_execute.exe
+2010-11-21 03:24:02 UTC+0000   \??\C:\Windows\System32\networkexplorer.dll
+2010-11-21 03:24:52 UTC+0000   \??\C:\Windows\System32\wpdshext.dll
+2010-11-21 03:24:01 UTC+0000   \??\C:\Windows\System32\mydocs.dll
+2009-07-14 01:41:53 UTC+0000   \??\C:\Windows\System32\sendmail.dll
+2010-11-21 03:24:51 UTC+0000   \??\C:\Windows\System32\syncui.dll
+2010-11-21 03:24:16 UTC+0000   \??\C:\Windows\System32\twext.dll
+2009-07-14 01:39:25 UTC+0000   \??\C:\Windows\system32\NOTEPAD.EXE
+2010-11-21 03:24:01 UTC+0000   \??\C:\Windows\System32\zipfldr.dll
+2009-07-14 01:39:51 UTC+0000   \??\C:\Windows\system32\wermgr.exe
+2009-07-14 01:39:07 UTC+0000   \??\C:\Windows\system32\DrvInst.exe
+2009-07-14 01:39:25 UTC+0000   \??\C:\Windows\System32\newdev.exe
+2009-07-14 01:39:55 UTC+0000   \??\C:\Windows\system32\wbem\WMIADAP.EXE
+2010-11-21 03:24:51 UTC+0000   \??\C:\Windows\System32\mobsync.exe
+2009-07-14 01:39:56 UTC+0000   \??\C:\Program Files\Windows Media Player\wmpnscfg.exe
+2009-07-14 01:39:06 UTC+0000   \??\C:\Windows\System32\dinotify.exe
+2009-07-14 01:39:55 UTC+0000   \??\C:\Windows\system32\wbem\WmiApSrv.exe
+2009-07-14 01:39:46 UTC+0000   \??\C:\Windows\System32\svchost.exe
+2010-11-21 03:23:56 UTC+0000   \??\C:\Windows\system32\sppsvc.exe
+2010-11-21 03:24:15 UTC+0000   \??\C:\Windows\system32\wbem\wmiprvse.exe
+2010-11-21 03:25:05 UTC+0000   \??\C:\Program Files\Windows Media Player\wmpnetwk.exe
+2009-07-14 01:39:37 UTC+0000   \??\C:\Windows\system32\SearchIndexer.exe
+2010-11-21 03:23:48 UTC+0000   \??\C:\Windows\System32\prnfldr.dll
+2010-11-21 03:23:55 UTC+0000   \??\C:\Windows\system32\vssvc.exe
+2009-07-14 01:39:21 UTC+0000   \??\C:\Windows\System32\msdtc.exe
+2010-11-21 03:24:51 UTC+0000   \??\C:\Windows\System32\SyncCenter.dll
+2020-08-09 21:46:48 UTC+0000   \??\C:\Program Files\VMware\VMware Tools\vmtoolsd.exe
+2020-08-09 21:50:24 UTC+0000   \??\C:\Windows\system32\vm3dservice.exe
+2020-08-09 21:30:46 UTC+0000   \??\C:\Program Files\VMware\VMware Tools\VMware VGAuth\VGAuthService.exe
+2010-11-21 03:24:49 UTC+0000   \??\C:\Windows\System32\gameux.dll
+2010-11-21 03:23:54 UTC+0000   \??\C:\Windows\System32\shdocvw.dll
+2009-07-14 01:39:08 UTC+0000   \??\C:\Windows\system32\Dwm.exe
+2010-11-21 03:24:28 UTC+0000   \??\C:\Windows\system32\userinit.exe
+2010-11-21 03:24:27 UTC+0000   \??\C:\Windows\System32\spoolsv.exe
+2010-11-21 03:23:53 UTC+0000   \??\C:\Windows\system32\lsm.exe
+2009-07-14 01:39:16 UTC+0000   \??\C:\Windows\system32\lsass.exe
+2009-07-14 01:39:37 UTC+0000   \??\C:\Windows\system32\services.exe
+2010-11-21 03:24:24 UTC+0000   \??\C:\Windows\System32\remotepg.dll
+2009-07-14 01:39:47 UTC+0000   \??\C:\Windows\System32\SystemPropertiesComputerName.exe
+2009-07-14 01:38:52 UTC+0000   \??\C:\Windows\System32\wscui.cpl
+2010-11-21 03:23:51 UTC+0000   \??\C:\Windows\System32\DeviceCenter.dll
+2020-08-09 21:46:36 UTC+0000   \??\C:\Program Files\VMware\VMware Tools\VMwareResolutionSet.exe
+2020-08-09 21:50:12 UTC+0000   \??\C:\Program Files\Common Files\VMware\Drivers\vss\comreg.exe
+2010-11-21 03:23:55 UTC+0000   \??\C:\Windows\System32\cmd.exe
+2020-08-09 21:46:36 UTC+0000   \??\C:\Program Files\VMware\VMware Tools\poweron-vm-default.bat
+2009-07-13 23:16:09 UTC+0000   \??\C:\Windows\syswow64\WOWReg32.exe
+2010-11-21 03:24:28 UTC+0000   \??\C:\Windows\syswow64\MsiExec.exe
+2010-11-21 03:24:15 UTC+0000   \??\C:\Windows\system32\msiexec.exe
+2022-08-27 12:13:18 UTC+0000   \??\C:\Windows\Temp\{070B33C5-B267-4499-82E5-EA5B3963DF4F}\.be\VC_redist.x64.exe
+2022-08-27 12:13:18 UTC+0000   \??\C:\Windows\Temp\{9D28D9FF-27E8-47E2-9191-8F9C45EDC764}\.cr\vcredist_x64.exe
+2022-08-27 12:12:39 UTC+0000   \??\C:\Users\Eason\AppData\Local\Temp\{0F693AA3-4387-4ACB-A6FD-3A3962905872}~setup\vcredist_x64.exe
+2010-11-21 03:24:25 UTC+0000   \??\C:\Windows\system32\wuauclt.exe
+2010-11-21 03:24:03 UTC+0000   \??\C:\Windows\servicing\TrustedInstaller.exe
+2010-11-21 03:23:55 UTC+0000   \??\C:\Windows\System32\wusa.exe
+2010-11-21 03:23:55 UTC+0000   \??\C:\Windows\SysWOW64\wusa.exe
+2010-11-21 03:23:55 UTC+0000   \??\C:\Windows\SysNative\wusa.exe
+2022-08-27 12:12:39 UTC+0000   \??\C:\Windows\Temp\{115DD8EA-FC54-4C78-8C67-480283E464AD}\.be\VC_redist.x86.exe
+2022-08-27 12:12:39 UTC+0000   \??\C:\Windows\Temp\{27028E74-941D-4530-99C8-EAEFBFAA64A0}\.cr\vcredist_x86.exe
+2022-08-27 12:12:39 UTC+0000   \??\C:\Users\Eason\AppData\Local\Temp\{0F693AA3-4387-4ACB-A6FD-3A3962905872}~setup\vcredist_x86.exe
+2020-08-10 14:59:29 UTC+0000   \??\D:\setup64.exe
+2010-11-21 03:24:51 UTC+0000   \??\C:\Windows\System32\sbe.dll
+2010-11-21 03:24:52 UTC+0000   \??\C:\Windows\System32\mf.dll
+2010-11-21 03:24:52 UTC+0000   \??\C:\Program Files\Windows Media Player\wmpshare.exe
+2009-07-14 01:39:16 UTC+0000   \??\C:\Windows\system32\lpremove.exe
+2009-07-14 01:39:26 UTC+0000   \??\C:\Windows\system32\PING.EXE
+2009-07-14 01:39:50 UTC+0000   \??\C:\Windows\system32\w32tm.exe
+2010-11-21 03:24:28 UTC+0000   \??\C:\Windows\Microsoft.NET\Framework64\v2.0.50727\cvtres.exe
+2009-06-10 20:39:47 UTC+0000   \??\C:\Windows\Microsoft.NET\Framework64\v2.0.50727\csc.exe
+2009-07-14 01:39:37 UTC+0000   \??\C:\Windows\System32\sdiagnhost.exe
+2009-07-14 01:39:27 UTC+0000   \??\C:\Windows\System32\powercfg.exe
+2010-11-21 03:24:08 UTC+0000   \??\C:\Windows\system32\aitagent.EXE
+2009-07-14 01:39:02 UTC+0000   \??\C:\Windows\system32\defrag.exe
+2009-07-14 01:39:20 UTC+0000   \??\c:\program files\windows defender\MpCmdRun.exe
+2010-11-21 03:24:35 UTC+0000   \??\C:\Windows\system32\winsat.exe
+2009-06-10 20:39:58 UTC+0000   \??\C:\Windows\Microsoft.NET\Framework64\v2.0.50727\mscorsvw.exe
+2009-06-10 21:23:09 UTC+0000   \??\C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorsvw.exe
+2010-11-21 03:24:49 UTC+0000   \??\C:\Windows\System32\wsqmcons.exe
+2010-11-21 03:25:06 UTC+0000   \??\C:\Windows\System32\sdclt.exe
+2009-07-14 01:39:35 UTC+0000   \??\C:\Windows\system32\sc.exe
+2009-07-14 01:41:56 UTC+0000   \??\C:\Program Files\Common Files\System\wab32.dll
+2009-07-14 01:39:17 UTC+0000   \??\C:\Windows\System32\mctadmin.exe
+2009-07-14 01:39:12 UTC+0000   \??\C:\Windows\System32\ie4uinit.exe
+2009-07-14 01:39:48 UTC+0000   \??\C:\Windows\System32\unregmp2.exe
+2009-07-14 01:39:53 UTC+0000   \??\C:\Program Files\Windows Mail\WinMail.exe
+2009-07-14 01:14:31 UTC+0000   \??\C:\Windows\SysWOW64\rundll32.exe
+2009-07-14 01:14:45 UTC+0000   \??\C:\Program Files (x86)\Windows Mail\WinMail.exe
+2010-11-21 03:24:07 UTC+0000   \??\C:\Windows\system32\net1.exe
+2009-07-14 01:39:25 UTC+0000   \??\C:\Windows\System32\net.exe
+2022-08-27 08:05:54 UTC+0000   \??\C:\Users\Eason\AppData\Local\Temp\storePwd.exe
+2022-08-27 08:05:54 UTC+0000   \??\C:\Users\Eason\AppData\Local\Temp\unattend.cmd
+2010-11-21 03:24:27 UTC+0000   \??\C:\Windows\system32\runonce.exe
+2010-11-21 03:24:26 UTC+0000   \??\C:\Windows\system32\mcbuilder.exe
+2010-11-21 03:23:52 UTC+0000   \??\C:\Windows\system32\oobe\msoobe.exe
+2009-07-14 01:39:26 UTC+0000   \??\C:\Windows\system32\oobe\oobeldr.exe
+2010-11-21 03:24:24 UTC+0000   \??\C:\Windows\system32\oobe\windeploy.exe
+2009-07-14 01:39:29 UTC+0000   \??\C:\WINDOWS\SYSTEM32\reg.exe
+2009-07-14 01:39:39 UTC+0000   \??\C:\WINDOWS\SYSTEM32\SETUPUGC.EXE
+2009-07-14 01:39:25 UTC+0000   \??\C:\Windows\System32\netsh.exe
+2010-11-21 03:24:15 UTC+0000   \??\C:\Windows\WinSxS\amd64_netfx-clrgc_b03f5f7f11d50a3a_6.1.7601.17514_none_ad7a390fa131c970\clrgc.exe
+2010-11-21 03:24:22 UTC+0000   \??\C:\Windows\bfsvc.exe

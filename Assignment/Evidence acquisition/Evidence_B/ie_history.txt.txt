@@ -1,0 +1,186 @@
+**************************************************
+Process: 3656 iexplore.exe
+Cache type "URL " at 0xd25000
+Record length: 0x100
+Location: Cookie:eason@bing.com/
+Last modified: 2022-08-27 13:04:15 UTC+0000
+Last accessed: 2022-08-27 13:04:15 UTC+0000
+File Offset: 0x100, Data Offset: 0x80, Data Length: 0x0
+File: eason@bing[2].txt
+**************************************************
+Process: 3656 iexplore.exe
+Cache type "URL " at 0xd25100
+Record length: 0x100
+Location: Cookie:eason@google.com/
+Last modified: 2022-08-27 13:03:36 UTC+0000
+Last accessed: 2022-08-27 13:03:36 UTC+0000
+File Offset: 0x100, Data Offset: 0x84, Data Length: 0x0
+File: eason@google[2].txt
+**************************************************
+Process: 3656 iexplore.exe
+Cache type "URL " at 0xd25200
+Record length: 0x100
+Location: Cookie:eason@www.chemistwarehouse.com.au/
+Last modified: 2022-08-27 13:03:42 UTC+0000
+Last accessed: 2022-08-27 13:03:42 UTC+0000
+File Offset: 0x100, Data Offset: 0x94, Data Length: 0x0
+File: eason@www.chemistwarehouse.com[1].txt
+**************************************************
+Process: 3656 iexplore.exe
+Cache type "URL " at 0xd25300
+Record length: 0x100
+Location: Cookie:eason@chemistwarehouse.com.au/
+Last modified: 2022-08-27 13:03:41 UTC+0000
+Last accessed: 2022-08-27 13:03:41 UTC+0000
+File Offset: 0x100, Data Offset: 0x90, Data Length: 0x0
+File: eason@chemistwarehouse.com[2].txt
+**************************************************
+Process: 3656 iexplore.exe
+Cache type "URL " at 0xd25400
+Record length: 0x100
+Location: Cookie:eason@www.bing.com/
+Last modified: 2022-08-27 13:04:18 UTC+0000
+Last accessed: 2022-08-27 13:04:18 UTC+0000
+File Offset: 0x100, Data Offset: 0x84, Data Length: 0x0
+File: eason@www.bing[2].txt
+**************************************************
+Process: 3656 iexplore.exe
+Cache type "URL " at 0xd25500
+Record length: 0x100
+Location: Cookie:eason@www.bing.com/
+Last modified: 2022-08-27 13:04:16 UTC+0000
+Last accessed: 2022-08-27 13:04:16 UTC+0000
+File Offset: 0x100, Data Offset: 0x84, Data Length: 0x0
+File: eason@www.bing[1].txt
+**************************************************
+Process: 3656 iexplore.exe
+Cache type "URL " at 0xda5000
+Record length: 0x100
+Location: Visited: Eason@https://www.msn.com/?ocid=iehp
+Last modified: 2022-08-27 12:45:46 UTC+0000
+Last accessed: 2022-08-27 12:45:46 UTC+0000
+File Offset: 0x100, Data Offset: 0x0, Data Length: 0x98
+**************************************************
+Process: 3656 iexplore.exe
+Cache type "URL " at 0xda5100
+Record length: 0x100
+Location: Visited: Eason@https://support.microsoft.com/internet-explorer
+Last modified: 2022-08-27 12:45:50 UTC+0000
+Last accessed: 2022-08-27 12:45:50 UTC+0000
+File Offset: 0x100, Data Offset: 0x0, Data Length: 0xa8
+**************************************************
+Process: 3656 iexplore.exe
+Cache type "URL " at 0xda5200
+Record length: 0x100
+Location: Visited: Eason@https://www.google.com/search
+Last modified: 2022-08-27 13:03:36 UTC+0000
+Last accessed: 2022-08-27 13:03:36 UTC+0000
+File Offset: 0x100, Data Offset: 0x0, Data Length: 0x98
+**************************************************
+Process: 3656 iexplore.exe
+Cache type "URL " at 0xda5300
+Record length: 0x100
+Location: Visited: Eason@https://www.google.com/?gws_rd=ssl
+Last modified: 2022-08-27 13:02:54 UTC+0000
+Last accessed: 2022-08-27 13:02:54 UTC+0000
+File Offset: 0x100, Data Offset: 0x0, Data Length: 0x9c
+**************************************************
+Process: 3656 iexplore.exe
+Cache type "URL " at 0xda5400
+Record length: 0x180
+Location: Visited: Eason@https://www.google.com/search?hl=en-AU&source=hp&q=flight+morocco&iflsig=AJiK0e8AAAAAYwokDulOV3RYIAuYN94dY4wUE7pcNEAr&gbv=1
+Last modified: 2022-08-27 13:03:03 UTC+0000
+Last accessed: 2022-08-27 13:03:03 UTC+0000
+File Offset: 0x180, Data Offset: 0x0, Data Length: 0xf4
+**************************************************
+Process: 3656 iexplore.exe
+Cache type "URL " at 0xda5580
+Record length: 0x180
+Location: Visited: Eason@https://www.google.com/url?q=https://www.flightcentre.com.au/morocco/flights&sa=U&ved=2ahUKEwiQ9ti0iuf5AhVK4TgGHbzJBTEQFnoECAoQAg&usg=AOvVaw29S2Sgg_U2GdEyHb3DlbkI
+Last modified: 2022-08-27 13:03:06 UTC+0000
+Last accessed: 2022-08-27 13:03:06 UTC+0000
+File Offset: 0x180, Data Offset: 0x0, Data Length: 0x11c
+**************************************************
+Process: 3656 iexplore.exe
+Cache type "URL " at 0xda5700
+Record length: 0x180
+Location: Visited: Eason@https://www.google.com/search?hl=en-AU&gbv=1&oq=&aqs=&q=sunscreen
+Last modified: 2022-08-27 13:03:37 UTC+0000
+Last accessed: 2022-08-27 13:03:37 UTC+0000
+File Offset: 0x180, Data Offset: 0x0, Data Length: 0xbc
+**************************************************
+Process: 3656 iexplore.exe
+Cache type "URL " at 0xda5880
+Record length: 0x180
+Location: Visited: Eason@https://www.google.com/url?q=https://www.chemistwarehouse.com.au/shop-online/214/sunscreen,-lotions-gels&sa=U&ved=2ahUKEwi1w4PFiuf5AhUT3TgGHSVMA1wQFnoECAoQAg&usg=AOvVaw0Dq0KAMm72n5fYxJHPtCUW
+Last modified: 2022-08-27 13:03:39 UTC+0000
+Last accessed: 2022-08-27 13:03:39 UTC+0000
+File Offset: 0x180, Data Offset: 0x0, Data Length: 0x138
+**************************************************
+Process: 3656 iexplore.exe
+Cache type "URL " at 0xda5a00
+Record length: 0x180
+Location: Visited: Eason@https://www.chemistwarehouse.com.au/category/shop-online/214/sunscreen,-lotions-gels
+Last modified: 2022-08-27 13:03:43 UTC+0000
+Last accessed: 2022-08-27 13:03:43 UTC+0000
+File Offset: 0x180, Data Offset: 0x0, Data Length: 0xcc
+**************************************************
+Process: 3656 iexplore.exe
+Cache type "URL " at 0xda5b80
+Record length: 0x100
+Location: Visited: Eason@http://www.bing.com/search?format=rss&q=sail+morocco&src=IE-SearchBox&FORM=IE8SRC
+Last modified: 2022-08-27 13:04:15 UTC+0000
+Last accessed: 2022-08-27 13:04:15 UTC+0000
+File Offset: 0x100, Data Offset: 0x0, Data Length: 0xcc
+**************************************************
+Process: 3656 iexplore.exe
+Cache type "URL " at 0xda5c80
+Record length: 0x180
+Location: Visited: Eason@http://www.bing.com/search?q=sail+morocco&src=IE-SearchBox&FORM=IE8SRC
+Last modified: 2022-08-27 13:04:15 UTC+0000
+Last accessed: 2022-08-27 13:04:15 UTC+0000
+File Offset: 0x180, Data Offset: 0x0, Data Length: 0xc0
+**************************************************
+Process: 3656 iexplore.exe
+Cache type "URL " at 0xda5e00
+Record length: 0x100
+Location: Visited: Eason@https://www.yachtingworld.com/cruising/sailing-morocco-atlas-coast-123680
+Last modified: 2022-08-27 13:04:18 UTC+0000
+Last accessed: 2022-08-27 13:04:18 UTC+0000
+File Offset: 0x100, Data Offset: 0x0, Data Length: 0xc4
+**************************************************
+Process: 3656 iexplore.exe
+Cache type "URL " at 0xda6000
+Record length: 0x180
+Location: Visited: Eason@https://www.google.com/search?hl=en-AU&gbv=1&oq=&aqs=&q=syndicate
+Last modified: 2022-08-27 13:03:24 UTC+0000
+Last accessed: 2022-08-27 13:03:24 UTC+0000
+File Offset: 0x180, Data Offset: 0x0, Data Length: 0xbc
+**************************************************
+Process: 3656 iexplore.exe
+Cache type "URL " at 0xda6180
+Record length: 0x180
+Location: Visited: Eason@https://www.google.com/url?q=https://en.wikipedia.org/wiki/Syndicate&sa=U&ved=2ahUKEwjimae9iuf5AhW7xDgGHaJCAMQQFXoECAUQAg&usg=AOvVaw2KKAm60k6iezT6_PUHj1j1
+Last modified: 2022-08-27 13:03:25 UTC+0000
+Last accessed: 2022-08-27 13:03:25 UTC+0000
+File Offset: 0x180, Data Offset: 0x0, Data Length: 0x114
+**************************************************
+Process: 3656 iexplore.exe
+Cache type "URL " at 0xd77280
+Record length: 0x380
+Location: https://www.google.com/images/branding/googlelogo/1x/googlelogo_white_background_color_272x92dp.png
+Last modified: 2019-10-22 18:30:00 UTC+0000
+Last accessed: 2022-08-27 13:02:54 UTC+0000
+File Offset: 0x380, Data Offset: 0xcc, Data Length: 0x100
+File: googlelogo_white_background_color_272x92dp[1].png
+Data: HTTP/1.1 200 OK
+Content-Type: image/png
+Cross-Origin-Resource-Policy: cross-origin
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="static-on-bigtable"
+Report-To: {"group":"static-on-bigtable","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/static-on-bigtable"}]}
+Content-Length: 5482
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+
+~U:eason

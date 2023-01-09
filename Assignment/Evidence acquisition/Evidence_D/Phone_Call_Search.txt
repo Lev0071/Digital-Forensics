@@ -1,0 +1,29 @@
+/mnt/e01/misc/profiles/cur/0/com.android.calllogbackup (contacts 1)
+
+/mnt/e01/misc/profiles/cur/0
+com.android.contacts
+com.android.providers.contacts
+com.google.android.syncadapters.contacts
+
+
+
+
+/mnt/e01/misc/profiles/ref/com.android.calllogbackup
+
+com.android.contacts
+com.android.providers.contacts
+com.google.android.syncadapters.contacts
+
+/mnt/e01/data/com.android.calllogbackup (contacts 2)
+
+com.android.contacts
+com.android.providers.contacts
+com.google.android.syncadapters.contacts
+
+/mnt/e01/user_de/0/com.android.calllogbackup (contacts 3)
+
+com.android.contacts
+com.android.providers.contacts
+com.google.android.syncadapters.contacts
+
+sudo chown sansforensics:sansforensics

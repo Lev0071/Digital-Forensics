@@ -1,0 +1,140 @@
+----------------------------
+Registry: \??\C:\Users\Eason\ntuser.dat 
+Path: Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count
+Last updated: 2022-08-28 06:52:58 UTC+0000
+
+Subkeys:
+
+Values:
+
+REG_BINARY    Microsoft.Windows.GettingStarted : 
+
+
+REG_BINARY    UEME_CTLSESSION : 
+
+
+REG_BINARY    %windir%\system32\displayswitch.exe : 
+
+
+REG_BINARY    Microsoft.Windows.RemoteDesktop : 
+                    
+
+REG_BINARY    Microsoft.Windows.StickyNotes : 
+              
+
+REG_BINARY    %windir%\system32\SnippingTool.exe : 
+                          ........
+
+REG_BINARY    %windir%\system32\calc.exe : 
+                        ........
+
+REG_BINARY    %windir%\system32\mspaint.exe : 
+
+
+REG_BINARY    %windir%\system32\xpsrchvw.exe : 
+
+
+REG_BINARY    %windir%\system32\WFS.exe : 
+
+REG_BINARY    %windir%\system32\magnify.exe : 
+
+
+REG_BINARY    UEME_CTLCUACount:ctor : 
+
+
+REG_BINARY    Microsoft.Windows.ControlPanel : 
+
+
+REG_BINARY    %windir%\explorer.exe : 
+
+
+REG_BINARY    D:\setup64.exe  : 
+
+
+REG_BINARY    %windir%\system32\SystemPropertiesComputerName.exe : 
+
+
+REG_BINARY    %windir%\system32\NOTEPAD.EXE : 
+
+
+REG_BINARY    C:\Users\Eason\Downloads\chrome64_48.0.2564.109.exe : 
+
+
+REG_BINARY    C:\Users\Eason\Downloads\reshacker_setup.exe : 
+
+
+REG_BINARY    C:\Users\Eason\Downloads\Thunderbird Setup 91.0.3.exe : 
+
+
+REG_BINARY    D78BF5DD33499EC2 : 
+
+
+REG_BINARY    C:\Users\Eason\Downloads\Chrome64_48.0.2564.109\chrome.exe : 
+
+
+REG_BINARY    Chrome.OHA53NKGVLBPMV22AJBZCE5VBQ : 
+
+
+REG_BINARY    %ProgramFiles%\Resource Hacker\ResourceHacker.exe : 
+
+
+REG_BINARY    Microsoft.InternetExplorer.Default : 
+
+
+REG_BINARY    C:\Users\Eason\Downloads\mynotepad++.exe : 
+
+
+REG_BINARY    Microsoft.Windows.Shell.RunDialog : 
+
+----------------------------
+Registry: \??\C:\Users\Eason\ntuser.dat 
+Path: Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{F4E57C4B-2036-45F0-A9AB-443BCFE33D9F}\Count
+Last updated: 2022-08-28 06:50:56 UTC+0000
+
+Subkeys:
+
+Values:
+
+REG_BINARY    %ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Accessories\Welcome Center.lnk : 
+ 
+
+
+
+REG_BINARY    %ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Accessories\displayswitch.lnk : 
+
+
+
+REG_BINARY    %ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Accessories\Remote Desktop Connection.lnk : 
+
+
+REG_BINARY    %ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Accessories\Sticky Notes.lnk : 
+
+
+REG_BINARY    %ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Accessories\Snipping Tool.lnk : 
+
+
+REG_BINARY    %ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Accessories\Calculator.lnk : 
+
+
+REG_BINARY    %ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Accessories\Paint.lnk : 
+
+
+REG_BINARY    %ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\XPS Viewer.lnk : 
+
+
+REG_BINARY    %ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Windows Fax and Scan.lnk : 
+
+
+REG_BINARY    %APPDATA%\Microsoft\Windows\Start Menu\Programs\Accessories\Accessibility\Magnify.lnk : 
+
+
+REG_BINARY    UEME_CTLCUACount:ctor : 
+
+
+REG_BINARY    %APPDATA%\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Windows Explorer.lnk : 
+
+
+REG_BINARY    %ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Resource Hacker\Resource Hacker.lnk : 
+
+
+REG_BINARY    %APPDATA%\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Internet Explorer.lnk : 

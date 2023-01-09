@@ -1,0 +1,41 @@
+17      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Microsoft\Feeds Cache\index.dat
+17      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Microsoft\Windows\Cookies\Low\index.dat
+17      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Microsoft\Windows\Temporary Internet Files\Low\Content.IE5\index.dat
+17      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Microsoft\Windows\History\Low\History.IE5\index.dat
+17      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Microsoft\Windows\PrivacIE\Low\index.dat
+17      1 RW-rw- \Device\HarddiskVolume1\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\History\History.IE5\index.dat
+17      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\index.dat
+17      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Microsoft\Windows\Cookies\index.dat
+16      0 RW-rw- \Device\HarddiskVolume1\Windows\ServiceProfiles\LocalService\AppData\Roaming\Microsoft\Windows\Cookies\index.dat
+17      1 RW-rw- \Device\HarddiskVolume1\Windows\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\index.dat
+16      0 RW-rw- \Device\HarddiskVolume1\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\index.dat
+1      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Microsoft\Windows\History\History.IE5\index.dat
+1      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Microsoft\Windows\Cookies\index.dat
+16      0 RW-rw- \Device\HarddiskVolume1\Windows\ServiceProfiles\LocalService\AppData\Local\Microsoft\Windows\History\History.IE5\index.dat
+1      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Microsoft\Windows\Cookies\index.dat
+1      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\index.dat
+17      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Microsoft\Windows\History\History.IE5\index.dat
+1      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Microsoft\Windows\History\History.IE5\index.dat
+1      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\index.dat
+
+
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 dumpfiles -D '/home/sansforensics/Downloads/evidence_B/IE' -Q 0x000000007e1c0520     
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 dumpfiles -D '/home/sansforensics/Downloads/evidence_B/IE' -Q 0x000000007e1d6b30     
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 dumpfiles -D '/home/sansforensics/Downloads/evidence_B/IE' -Q 0x000000007e1d6ea0     
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 dumpfiles -D '/home/sansforensics/Downloads/evidence_B/IE' -Q 0x000000007e1d8c00     
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 dumpfiles -D '/home/sansforensics/Downloads/evidence_B/IE' -Q 0x000000007e1e8680     
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 dumpfiles -D '/home/sansforensics/Downloads/evidence_B/IE' -Q 0x000000007e24eb70     
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 dumpfiles -D '/home/sansforensics/Downloads/evidence_B/IE' -Q 0x000000007e2f7e40     
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 dumpfiles -D '/home/sansforensics/Downloads/evidence_B/IE' -Q 0x000000007e377330     
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 dumpfiles -D '/home/sansforensics/Downloads/evidence_B/IE' -Q 0x000000007e3ab070     
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 dumpfiles -D '/home/sansforensics/Downloads/evidence_B/IE' -Q 0x000000007e3ad8a0     
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 dumpfiles -D '/home/sansforensics/Downloads/evidence_B/IE' -Q 0x000000007e3db070     
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 dumpfiles -D '/home/sansforensics/Downloads/evidence_B/IE' -Q 0x000000007e3f2b00      
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 dumpfiles -D '/home/sansforensics/Downloads/evidence_B/IE' -Q 0x000000007e4f3f20      
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 dumpfiles -D '/home/sansforensics/Downloads/evidence_B/IE' -Q 0x000000007e568f20     
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 dumpfiles -D '/home/sansforensics/Downloads/evidence_B/IE' -Q 0x000000007e71f070      
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 dumpfiles -D '/home/sansforensics/Downloads/evidence_B/IE' -Q 0x000000007e7922b0      
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 dumpfiles -D '/home/sansforensics/Downloads/evidence_B/IE' -Q 0x000000007e7ac230     
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 dumpfiles -D '/home/sansforensics/Downloads/evidence_B/IE' -Q 0x000000007ebafa60      
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 dumpfiles -D '/home/sansforensics/Downloads/evidence_B/IE' -Q 0x000000007f32a920      
+    

@@ -1,0 +1,219 @@
+0x000000007e000f20      1      0 R--rwd \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\logins.json
+0x000000007e001b60      1      1 R--rw- \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird
+0x000000007e02b330      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\2953E5B0A1388A52667586717432FCA3AE411399
+0x000000007e030d00      1      1 R--rw- \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird
+0x000000007e03c420      2      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\rnp.dll
+0x000000007e03cdd0      2      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\search.json.mozlz4
+0x000000007e03cf20     33      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\panacea.dat
+0x000000007e05d320      3      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\calendar-data\local.sqlite
+0x000000007e05d7a0     17      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\calendar-data\local.sqlite-shm
+0x000000007e07b8b0      3      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\ImapMail\imap.gmail.com.msf
+0x000000007e07bed0      1      0 R--rwd \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\session.json
+0x000000007e07c6f0      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\657BCA8B40694E2804BC1FA64BAF9E0BA01A9F2C
+0x000000007e07ccc0      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\1433040032CBBC3BA8F87480C0DB86C1A93F0F64
+0x000000007e08c6f0      5      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\libotr.dll
+0x000000007e09e3b0      9      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\libssp-0.dll
+0x000000007e09faf0      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\357AC33EBA7D21099387009D41AC63B638F66C16
+0x000000007e0c0910      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\8769C6C44D11DE2E7B444A5470FC571B6C936788
+0x000000007e1027d0     15      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\libotr.dll
+0x000000007e106070     17      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\places.sqlite-shm
+0x000000007e10bd30      2      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\0A6500541E45EE4DB615D9B25C40323CBD35E128
+0x000000007e10c070      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\9E6357DBF047FB1295D4096616278AAF2B8A6753
+0x000000007e1156b0      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\AA6886B759F7F9231EA8C6A7DCC0612182228801
+0x000000007e116620      1      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\webappsstore.sqlite-wal
+0x000000007e116c20      3      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\favicons.sqlite
+0x000000007e11ff20     16      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\ImapMail\imap.gmail.com\INBOX
+0x000000007e122600      3      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\webappsstore.sqlite
+0x000000007e123a00     17      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\favicons.sqlite-shm
+0x000000007e124b40      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\03334BD6E47ACCE424D27A80E2BABCBFB3EB37E2
+0x000000007e126460      1      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\webappsstore.sqlite-wal
+0x000000007e127750      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\0BB7E1B5C514201A3EEDB9AEB6284C7DA1FC4870
+0x000000007e128f20      2      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\10C2DF682B4716DE9C09B841A80149E038C67573
+0x000000007e129a20      2      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\0EDDF8C091E2FED62E44BEDDDC1723F5BF38FE4F
+0x000000007e129bc0      1      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\openpgp.sqlite
+0x000000007e12a750      2      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\133BA7433E70D01A860D4F2682F34095B122FF42
+0x000000007e12b070      2      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\95E01234AF66AB6CDCC8A8FD8113EEDA795270B2
+0x000000007e12bdd0      2      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\D8350122944640F3BA129AA87FCFAF93EDCFC6CB
+0x000000007e12bf20      3      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\places.sqlite
+0x000000007e1301f0      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\820D72C01D76CF4B2F97B9BA2131E395EF79363E
+0x000000007e1303d0      1      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\favicons.sqlite-wal
+0x000000007e1308a0      2      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\6D8DB9D1358D0F7D1F5FA102A1CA35D48E4224FB
+0x000000007e130c00      2      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\F8D5B76A1EF679D7E128B67E60239325BF22714D
+0x000000007e133bd0      2      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\7B2976260CF484988B35721F7FF11EE7E8937361
+0x000000007e134ab0      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\80B8B653666A1E1406D9DB7005B4709B3501FAB2
+0x000000007e134c00      1      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\favicons.sqlite-wal
+0x000000007e135390     17      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\webappsstore.sqlite-shm
+0x000000007e136f20      2      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\8FE18CE9297E2816C6DD43614FE64D0B6CE882B1
+0x000000007e137dc0      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\76DD1899355F20B7C905C41C33DA28696F94B5A9
+0x000000007e1393c0      2      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\D8EF12DD3F5A0B350AEDF5A0EBB7935D12C12CE3
+0x000000007e13e660      3      0 -W-rwd \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\datareporting\aborted-session-ping.tmp
+0x000000007e1437c0      2      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\4E9C753547C24D2B8C72ADEA96ED2C3BFFF1D968
+0x000000007e145e60      2      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\3C9B2D192D535C347CDA9FB12BFC88FD40CF0382
+0x000000007e146430      1      1 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\webappsstore.sqlite
+0x000000007e146bb0     28      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\places.sqlite-wal
+0x000000007e1485c0      2      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\22F59957B7E08CD6CCFED6AF2A1DF26FE157DF40
+0x000000007e149760      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\EE52E71FF7D18B3099CADEC8EA5E66F8A0FBC009
+0x000000007e14b070      1      0 R--rwd \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\saved-telemetry-pings\a5d8bc6e-1c72-453f-a9e0-0f3fd07248db
+0x000000007e14c070      2      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\58FA4C93D2C2293EB9F0554BA83740A06674316F
+0x000000007e150520      2      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\8EC9FF17792BAA98EA88EC1CBDD9089F3384F606
+0x000000007e150f20      1      1 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\favicons.sqlite
+0x000000007e151dc0      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\CB7885F2D62B3D6B19418FB42D516DC2F078262D
+0x000000007e152230      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\E65D76A00F6A1115FF46F7A0073FA5B591BF6546
+0x000000007e153ac0      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\DF81002ED1DC40287CB7B68937EF878DF7E39A1F
+0x000000007e154240      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\E6C0D6A2532F38ABDB374D7D4C4110D52F87D93B
+0x000000007e1563a0      2      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\2BBC4882814D5900E66325A5473D14ECB6F8F11F
+0x000000007e156670      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\858791FDFD6C1DE2A4AC4477ACDD8DE46D878893
+0x000000007e159070      1      1 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\places.sqlite
+0x000000007e1593c0      1      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\places.sqlite-wal
+0x000000007e159ca0      1      0 R--rwd \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\saved-telemetry-pings\2b739b6a-4998-41f0-aced-a72ce2d30662
+0x000000007e15a130      2      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\252CE8AC445A184A1F4A1C6C6D4ADB8AE41B7776
+0x000000007e15a480      2      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\7EF4591F0C61F5763884CBDB66E6B376BF5B880B
+0x000000007e15b930      1      0 R--rwd \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\saved-telemetry-pings\a7b57ee8-dfe5-4405-9c6f-1a957ffad1db
+0x000000007e15de20      1      0 R--rwd \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\saved-telemetry-pings\dac824de-876e-49df-8248-66501e44893b
+0x000000007e1611f0      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\A6F5C4A67184B09B1383CBF6028AF63656132B54
+0x000000007e1671c0      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\EAB55001F6648F88B675C6FEDA580B34F8FACCA8
+0x000000007e167620      1      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\ImapMail\imap.gmail.com\INBOX.msf
+0x000000007e168510      2      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\D965D6C9874C399B3310613548025E1B679B3F03
+0x000000007e168d10      3      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\ImapMail\imap.gmail.com\[Gmail].sbd\Sent Mail
+0x000000007e168f20      2      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\99D01D160AC7ADE6301F3559541FEF1A6F6155F0
+0x000000007e16b310      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\9779FEFE20E8D12714B80421717F16F4A55A22CA
+0x000000007e176f20      2      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\AA70DA0EA77AF599D16F76E79A98272BA138060D
+0x000000007e1a1470      1      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\ImapMail\imap.gmail.com\[Gmail].sbd\Starred.msf
+0x000000007e206450     11      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\MapiProxy_InUse.dll
+0x000000007e2071a0     12      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\api-ms-win-crt-string-l1-1-0.dll
+0x000000007e2075a0     12      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\api-ms-win-crt-runtime-l1-1-0.dll
+0x000000007e2076f0      9      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\vcruntime140.dll
+0x000000007e2084e0      2      0 R--rwd \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\uninstall\shortcuts_log.ini
+0x000000007e208800     12      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\api-ms-win-crt-convert-l1-1-0.dll
+0x000000007e2089e0     12      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\api-ms-win-crt-stdio-l1-1-0.dll
+0x000000007e208bc0     12      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\api-ms-win-crt-heap-l1-1-0.dll
+0x000000007e2093b0      1      1 R--rw- \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird
+0x000000007e211f20      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\16E62D32B1EA8D3E71F0F5DEDD63643D2CB7180A
+0x000000007e2206f0      1      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\ImapMail\imap.gmail.com\[Gmail].sbd\Sent Mail.msf
+0x000000007e228810      2      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\EA1E3132006CB34CB9058E6891C35B731B9C4D9B
+0x000000007e228b70      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\994D7415C2B6896F320F3CD64EE7A73DB7EB85E8
+0x000000007e228cc0      2      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\3FBEBCE6E4F24D3330CD819D3348D0499C16CC83
+0x000000007e2327e0     16      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\storage\permanent\chrome\idb\3870112724rsegmnoittet-es.sqlite
+0x000000007e2451a0      2      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\D6F6E849ECE00589410A5592D2F1D3AB152FAD82
+0x000000007e245af0      5      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\storage.sqlite
+0x000000007e24aa90      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\A2C8C2A1F59BF8A761E0C2E063293DD7A9D75633
+0x000000007e2573b0      1      1 R--rw- \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird
+0x000000007e257680      3      0 -W-rwd \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\saved-telemetry-pings\1c059049-4126-4f0b-b3df-691ebd187707.tmp
+0x000000007e258b70     16      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\ImapMail\imap.gmail.com\[Gmail].sbd\All Mail
+0x000000007e2ab9b0      2      0 -W-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Crash Reports\InstallTime20220817215453
+0x000000007e2ac070      4      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\api-ms-win-crt-multibyte-l1-1-0.dll
+0x000000007e2ac240     15      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\nss3.dll
+0x000000007e2ad070     12      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\api-ms-win-crt-locale-l1-1-0.dll
+0x000000007e2aed10      8      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\msvcp140.dll
+0x000000007e2c5dd0      2      0 R--rw- \Device\HarddiskVolume1\ProgramData\Microsoft\Windows\Start Menu\Programs\Thunderbird.lnkbird.lnk
+0x000000007e2cef20      2      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\7DB3359FF1AE28D679D8DE03A74F2C06BC18D50B
+0x000000007e2f0620     12      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\api-ms-win-core-synch-l1-2-0.dll
+0x000000007e2f0c10      1      1 R--rw- \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird
+0x000000007e2f16a0      1      0 R--rwd \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\saved-telemetry-pings\9305b1c2-2336-4d45-80d8-a27487409633
+0x000000007e2f1920      2      0 -W-rwd \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\datareporting\archived\2022-08\1661669414992.1c059049-4126-4f0b-b3df-691ebd187707.health.jsonlz4.tmp
+0x000000007e2f5330     12      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\api-ms-win-crt-utility-l1-1-0.dll
+0x000000007e2f5d10      1      1 R--rw- \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird
+0x000000007e2f62f0     17      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\cookies.sqlite-shm
+0x000000007e2f6620     12      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\api-ms-win-core-file-l2-1-0.dll
+0x000000007e2f6770     12      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\api-ms-win-core-timezone-l1-1-0.dll
+0x000000007e2f7070      3      0 -W-rwd \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\datareporting\session-state.json.tmp
+0x000000007e2f7640      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\SiteSecurityServiceState.txt
+0x000000007e320570     17      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\abook.sqlite-shm
+0x000000007e33bdc0      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\CC602C80A7C7700981D5855451A1FA38D299B505
+0x000000007e376a20      3      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\abook.sqlite
+0x000000007e37a940      3      0 -W-rwd \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\extension-preferences.json.tmp
+0x000000007e37c260      1      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\abook.sqlite-wal
+0x000000007e3b4070      2      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\prldap60.dll
+0x000000007e3b4700     12      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\api-ms-win-core-processthreads-l1-1-1.dll
+0x000000007e3b9860     16      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\lgpllibs.dll
+0x000000007e3b99b0     15      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\lgpllibs.dll
+0x000000007e3ba2e0      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\virtualFolders.dat
+0x000000007e3bed00     17      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\history.sqlite-shm
+0x000000007e3c4730      3      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\history.sqlite
+0x000000007e3cc070     32      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\ImapMail\imap.gmail.com\INBOX.msf
+0x000000007e3ebf20      2      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\AF5A63B9C243929371C044AF26C7E83ECCF473B3
+0x000000007e3ef860      3      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\blist.sqlite
+0x000000007e3f5510      1      1 R--rw- \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird
+0x000000007e3f7ab0      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\AlternateServices.txt
+0x000000007e3f7d00      2      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\3F6F2C3D21DDA5A2A08DF73017EA2FEA43EAB2DD
+0x000000007e3fadd0     15      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\rnp.dll
+0x000000007e3faf20      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\folderTree.json
+0x000000007e3fe8e0      3      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\Mail\Local Folders\Unsent Messages.msf
+0x000000007e3fef20      6      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\calendar-data\local.sqlite-wal
+0x000000007e462170      1      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\enigmail.sqlite
+0x000000007e462a60      2      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\xul.dll
+0x000000007e462bb0     15      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\xul.dll
+0x000000007e465c10      9      0 R--rwd \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\fonts\TwemojiMozilla.ttf
+0x000000007e46dab0      4      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\updater.exe
+0x000000007e46f070     16      0 R--r-- \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\chrome\icons\default\messengerWindow.ico
+0x000000007e474610      3      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\permissions.sqlite
+0x000000007e48b070     16      0 R--rw- \Device\HarddiskVolume1\Users\Public\Desktop\Thunderbird.lnkbird.lnk
+0x000000007e4a81e0     16      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\api-ms-win-crt-multibyte-l1-1-0.dll
+0x000000007e4a8700      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\times.json
+0x000000007e4aa7b0      5      0 R--r-- \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\uninstall\helper.exe
+0x000000007e4aa900      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Crash Reports\InstallTime20210824180134
+0x000000007e4b4b60      1      0 R--rwd \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\updater.ini
+0x000000007e4b4f20     12      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\api-ms-win-crt-time-l1-1-0.dll
+0x000000007e4c65f0     12      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\api-ms-win-crt-environment-l1-1-0.dll
+0x000000007e4c6880     12      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\api-ms-win-crt-filesystem-l1-1-0.dll
+0x000000007e4d8f20     12      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\api-ms-win-crt-math-l1-1-0.dll
+0x000000007e5607a0      2      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\compatibility.ini
+0x000000007e562620      9      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\nss3.dll
+0x000000007e5635c0      2      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\6762E24BB9F66A6430B9C774503510453B4EBA21
+0x000000007e5675f0     15      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\prldap60.dll
+0x000000007e580e50     15      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\ucrtbase.dll
+0x000000007e585590     12      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\api-ms-win-core-file-l1-2-0.dll
+0x000000007e5b4dd0      1      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\ImapMail\imap.gmail.com\[Gmail].sbd\All Mail.msf
+0x000000007e5b4f20      3      0 -W-rwd \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\xulstore.json.tmp
+0x000000007e5b6240     12      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\AccessibleMarshal.dll
+0x000000007e5b6550      4      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\thunderbird.exe
+0x000000007e5b6730      1      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\cookies.sqlite
+0x000000007e5b6f20      2      0 -W-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\sessionCheckpoints.json.tmp
+0x000000007e5cc4d0     12      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\api-ms-win-core-localization-l1-2-0.dll
+0x000000007e5ced10     14      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\ldap60.dll
+0x000000007e5cf2d0      1      1 R--rw- \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird
+0x000000007e5fc770      2      0 RW---- \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\mozMapi32_InUse.dll
+0x000000007e670620     15      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\softokn3.dll
+0x000000007e6709a0     15      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\freebl3.dll
+0x000000007e7112a0     16      0 R--r-- \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\updater.exe
+0x000000007e711c80     15      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\ldap60.dll
+0x000000007e711dd0      1      0 R--rw- \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\dependentlibs.list
+0x000000007e750b40      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\profiles.ini
+0x000000007e7843f0      1      0 R--rw- \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\defaults\pref\channel-prefs.js
+0x000000007e792b70      1      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\maintenanceservice.exe
+0x000000007e793070      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\33EE6B5255A5034E20567C6E0C4E753442321E5A
+0x000000007e794070      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\mailViews.dat
+0x000000007e7b0890      5      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\cookies.sqlite-wal
+0x000000007e7b16e0     16      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\mozglue.dll
+0x000000007e7c6070      1      1 R--rw- \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird
+0x000000007e7ca1c0      1      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\history.sqlite-wal
+0x000000007e7cfa00      8      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\softokn3.dll
+0x000000007e7cfd60      2      0 R--r-- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\cookies.sqlite
+0x000000007e7ef070     11      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\global-messages-db.sqlite
+0x000000007e7fa230      4      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\AccessibleHandler.dll
+0x000000007e83fd10      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\storage\permanent\chrome\.metadata-v2
+0x000000007e8c5d10      1      1 R--rw- \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird
+0x000000007e8d3910     15      0 R--r-d \Device\HarddiskVolume1\Users\Eason\Downloads\Thunderbird Setup 91.0.3.exe
+0x000000007e8e65a0      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\F48AF045A053C051D0D1C895F19F7399E1481EF8
+0x000000007e960dc0     14      0 -W-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\startupCache\startupCache.8.little
+0x000000007e963e50      1      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\ImapMail\imap.gmail.com\[Gmail].sbd\Drafts.msf
+0x000000007e980380      6      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\uninstall\helper.exe
+0x000000007e9df7e0      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\datareporting\state.json
+0x000000007e9f1430      1      1 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\ImapMail\imap.gmail.com\[Gmail].sbd\Important.msf
+0x000000007ebb9760      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\F43A0DC3B55447F30BF6AE029FBA683EA2D01ACC
+0x000000007ebbc070      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\FFD19ACE83AE6397BCDB6CFC21F97C760E37883B
+0x000000007ebbcdc0      8      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\thunderbird.exe
+0x000000007ebcb770     12      0 R--r-d \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\freebl3.dll
+0x000000007ebffbf0      2      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\109D080055C1548CE320A422FD98DA1D5E1A5BC8
+0x000000007ed342e0      2      0 RW-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\A8743ACDA513FF27A72604EA39BAAE662138F0B9
+0x000000007f007070      1      0 R--r-- \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\MapiProxy.dll
+0x000000007f02ed10      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\addons.json
+0x000000007f2bf800     16      0 RW---- \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\MapiProxy_InUse.dll
+0x000000007f329a50      1      0 RW-r-- \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\uninstall\uninstall.log
+0x000000007f37f890      1      0 R--r-- \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\mozMapi32.dll
+0x000000007f37f9e0      1      0 R--rw- \Device\HarddiskVolume1\Users\Eason\AppData\Local\Thunderbird\Profiles\nsxx2nq9.default-release\cache2\entries\372F1EA24EED08EB6838EA846F1537ACA244C257
+0x000000007f3cc8d0      2      0 -W-rw- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\crashes\store.json.mozlz4.tmp
+0x000000007f64dbc0      1      0 R--rwd \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\saved-telemetry-pings\19139f7b-1139-4bda-8b75-bd2cdd411c9b
+0x000000007f8ca3c0      1      0 R--rwd \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\saved-telemetry-pings\78b3238d-7299-42c1-983e-caff7daca4e2
+0x000000007fc4c5e0      5      0 R--rw- \Device\HarddiskVolume1\Program Files\Mozilla Thunderbird\omni.ja
+0x000000007fc4d5b0      1      1 RW---- \Device\HarddiskVolume1\Users\Eason\AppData\Roaming\Thunderbird\Profiles\nsxx2nq9.default-release\parent.lock

@@ -1,0 +1,20 @@
+Offset(V)          Name                    PID   PPID   Thds     Hnds   Sess  Wow64 Start                          Exit                          
+------------------ -------------------- ------ ------ ------ -------- ------ ------ ------------------------------ ------------------------------                                
+0xfffffa801aa49b30 chrome.exe             2892   1456     34      815      1      0 2022-08-28 06:47:04 UTC+0000                                 
+0xfffffa801a562060 chrome.exe             1960   2892     10      220      1      0 2022-08-28 06:47:31 UTC+0000                                 
+0xfffffa801a405060 thunderbird.ex         2776    772     65      859      1      0 2022-08-28 06:49:08 UTC+0000                                 
+0xfffffa801a6d5060 thunderbird.ex         3312   2776     39      308      1      0 2022-08-28 06:49:13 UTC+0000                                 
+0xfffffa801a9b7b30 thunderbird.ex         3568   2776      0 --------      1      0 2022-08-28 06:49:17 UTC+0000   2022-08-28 06:49:21 UTC+0000  
+0xfffffa801a9f6b30 thunderbird.ex         3972   2776     10      181      1      0 2022-08-28 06:49:19 UTC+0000                                 
+0xfffffa801aa2a060 thunderbird.ex         2136   2776     20      270      1      0 2022-08-28 06:49:22 UTC+0000                                 
+0xfffffa801aa31b30 thunderbird.ex         3508   2776      0 --------      1      0 2022-08-28 06:49:26 UTC+0000   2022-08-28 06:49:36 UTC+0000  
+0xfffffa801aa33b30 thunderbird.ex         3476   2776     21      278      1      0 2022-08-28 06:49:26 UTC+0000                                 
+0xfffffa801a9f3630 mynotepad++.ex         3948   1456      3       70      1      1 2022-08-28 06:50:21 UTC+0000                                 
+0xfffffa8018e7f6d0 iexplore.exe           2028   1456     12      409      1      1 2022-08-28 06:50:56 UTC+0000                                 
+0xfffffa801abb8b30 iexplore.exe           3656   2028     16      373      1      1 2022-08-28 06:50:57 UTC+0000                                 
+0xfffffa8019a075c0 chrome.exe             3808   2892      9      174      1      0 2022-08-28 06:51:16 UTC+0000   
+
+                              
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 memdump -p <PID> -D <location>
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 procdump -p <PID> -D <location> 
+vol.py -f Snapshot1.vmem --profile=Win7SP1x64 dumpfiles -Q 0x000000007e000f20 -D <location>

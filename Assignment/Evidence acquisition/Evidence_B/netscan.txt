@@ -1,0 +1,122 @@
+Offset(P)          Proto    Local Address                  Foreign Address      State            Pid      Owner          Created
+0x7e092990         UDPv4    0.0.0.0:56268                  *:*                                   992      svchost.exe    2022-08-28 06:43:53 UTC+0000
+0x7e092c30         UDPv4    0.0.0.0:56269                  *:*                                   992      svchost.exe    2022-08-28 06:43:53 UTC+0000
+0x7e092c30         UDPv6    :::56269                       *:*                                   992      svchost.exe    2022-08-28 06:43:53 UTC+0000
+0x7e0b4010         UDPv4    0.0.0.0:49943                  *:*                                   992      svchost.exe    2022-08-28 06:44:25 UTC+0000
+0x7e0b4010         UDPv6    :::49943                       *:*                                   992      svchost.exe    2022-08-28 06:44:25 UTC+0000
+0x7e0b9180         UDPv4    0.0.0.0:3540                   *:*                                   2600     svchost.exe    2022-08-28 06:43:13 UTC+0000
+0x7e0b9180         UDPv6    :::3540                        *:*                                   2600     svchost.exe    2022-08-28 06:43:13 UTC+0000
+0x7e0b96b0         UDPv4    0.0.0.0:0                      *:*                                   2600     svchost.exe    2022-08-28 06:43:13 UTC+0000
+0x7e0b96b0         UDPv6    :::0                           *:*                                   2600     svchost.exe    2022-08-28 06:43:13 UTC+0000
+0x7e1dfc90         UDPv4    127.0.0.1:58384                *:*                                   3656     iexplore.exe   2022-08-28 06:50:58 UTC+0000
+0x7e24e840         UDPv4    0.0.0.0:3702                   *:*                                   2428     svchost.exe    2022-08-28 06:44:24 UTC+0000
+0x7e284380         UDPv4    0.0.0.0:5355                   *:*                                   324      svchost.exe    2022-08-28 06:42:59 UTC+0000
+0x7e2e98a0         UDPv4    0.0.0.0:55988                  *:*                                   2428     svchost.exe    2022-08-28 06:43:01 UTC+0000
+0x7e2ead00         UDPv4    0.0.0.0:55989                  *:*                                   2428     svchost.exe    2022-08-28 06:43:01 UTC+0000
+0x7e2ead00         UDPv6    :::55989                       *:*                                   2428     svchost.exe    2022-08-28 06:43:01 UTC+0000
+0x7e3094d0         UDPv4    0.0.0.0:3702                   *:*                                   2428     svchost.exe    2022-08-28 06:44:24 UTC+0000
+0x7e3094d0         UDPv6    :::3702                        *:*                                   2428     svchost.exe    2022-08-28 06:44:24 UTC+0000
+0x7e30b170         UDPv4    0.0.0.0:3702                   *:*                                   2428     svchost.exe    2022-08-28 06:44:24 UTC+0000
+0x7e30d010         UDPv4    0.0.0.0:3702                   *:*                                   992      svchost.exe    2022-08-28 06:44:24 UTC+0000
+0x7e30d010         UDPv6    :::3702                        *:*                                   992      svchost.exe    2022-08-28 06:44:24 UTC+0000
+0x7e30d540         UDPv4    0.0.0.0:3702                   *:*                                   992      svchost.exe    2022-08-28 06:44:24 UTC+0000
+0x7e30d540         UDPv6    :::3702                        *:*                                   992      svchost.exe    2022-08-28 06:44:24 UTC+0000
+0x7e310940         UDPv4    0.0.0.0:3702                   *:*                                   2428     svchost.exe    2022-08-28 06:44:24 UTC+0000
+0x7e310940         UDPv6    :::3702                        *:*                                   2428     svchost.exe    2022-08-28 06:44:24 UTC+0000
+0x7e3155d0         UDPv4    0.0.0.0:5004                   *:*                                   2320     wmpnetwk.exe   2022-08-28 06:43:03 UTC+0000
+0x7e318690         UDPv4    0.0.0.0:3702                   *:*                                   992      svchost.exe    2022-08-28 06:44:24 UTC+0000
+0x7e31aec0         UDPv4    0.0.0.0:3702                   *:*                                   992      svchost.exe    2022-08-28 06:44:24 UTC+0000
+0x7e3427d0         UDPv6    fe80::211e:4f70:a76:f282:55948 *:*                                   2428     svchost.exe    2022-08-28 06:43:01 UTC+0000
+0x7e345a30         UDPv4    127.0.0.1:55951                *:*                                   2428     svchost.exe    2022-08-28 06:43:01 UTC+0000
+0x7e346710         UDPv6    ::1:55949                      *:*                                   2428     svchost.exe    2022-08-28 06:43:01 UTC+0000
+0x7e347ec0         UDPv4    192.168.194.173:55950          *:*                                   2428     svchost.exe    2022-08-28 06:43:01 UTC+0000
+0x7e349290         UDPv4    192.168.194.173:1900           *:*                                   2428     svchost.exe    2022-08-28 06:43:01 UTC+0000
+0x7e3496b0         UDPv6    ::1:1900                       *:*                                   2428     svchost.exe    2022-08-28 06:43:01 UTC+0000
+0x7e349ec0         UDPv6    fe80::211e:4f70:a76:f282:1900  *:*                                   2428     svchost.exe    2022-08-28 06:43:01 UTC+0000
+0x7e34bbb0         UDPv4    127.0.0.1:1900                 *:*                                   2428     svchost.exe    2022-08-28 06:43:01 UTC+0000
+0x7e35e010         UDPv4    0.0.0.0:0                      *:*                                   2600     svchost.exe    2022-08-28 06:43:01 UTC+0000
+0x7e35e010         UDPv6    :::0                           *:*                                   2600     svchost.exe    2022-08-28 06:43:01 UTC+0000
+0x7e36cec0         UDPv4    0.0.0.0:0                      *:*                                   2600     svchost.exe    2022-08-28 06:43:02 UTC+0000
+0x7e36cec0         UDPv6    :::0                           *:*                                   2600     svchost.exe    2022-08-28 06:43:02 UTC+0000
+0x7e383460         UDPv4    0.0.0.0:5005                   *:*                                   2320     wmpnetwk.exe   2022-08-28 06:43:03 UTC+0000
+0x7e3ae200         UDPv4    0.0.0.0:5005                   *:*                                   2320     wmpnetwk.exe   2022-08-28 06:43:03 UTC+0000
+0x7e3ae200         UDPv6    :::5005                        *:*                                   2320     wmpnetwk.exe   2022-08-28 06:43:03 UTC+0000
+0x7e0dd010         TCPv4    0.0.0.0:3587                   0.0.0.0:0            LISTENING        2600     svchost.exe    
+0x7e0dd010         TCPv6    :::3587                        :::0                 LISTENING        2600     svchost.exe    
+0x7e2d58c0         TCPv4    0.0.0.0:5357                   0.0.0.0:0            LISTENING        4        System         
+0x7e2d58c0         TCPv6    :::5357                        :::0                 LISTENING        4        System         
+0x7e362700         TCPv4    0.0.0.0:554                    0.0.0.0:0            LISTENING        2320     wmpnetwk.exe   
+0x7e362700         TCPv6    :::554                         :::0                 LISTENING        2320     wmpnetwk.exe   
+0x7e3ad010         TCPv4    0.0.0.0:554                    0.0.0.0:0            LISTENING        2320     wmpnetwk.exe   
+0x7e3ad620         TCPv4    0.0.0.0:10243                  0.0.0.0:0            LISTENING        4        System         
+0x7e3ad620         TCPv6    :::10243                       :::0                 LISTENING        4        System         
+0x7e3e8190         TCPv4    0.0.0.0:2869                   0.0.0.0:0            LISTENING        4        System         
+0x7e3e8190         TCPv6    :::2869                        :::0                 LISTENING        4        System         
+0x7e092010         TCPv6    -:0                            e809:2e1a:80fa:ffff:e809:2e1a:80fa:ffff:0 CLOSED           992      svchost.exe    
+0x7e10f7f0         TCPv4    127.0.0.1:49233                127.0.0.1:49232      ESTABLISHED      3476     thunderbird.ex 
+0x7e110cf0         TCPv4    127.0.0.1:49232                127.0.0.1:49233      ESTABLISHED      3476     thunderbird.ex 
+0x7e123420         TCPv4    192.168.194.173:49256          142.250.66.238:443   ESTABLISHED      2892     chrome.exe     
+0x7e128450         TCPv4    192.168.194.173:49251          172.217.24.46:443    ESTABLISHED      2892     chrome.exe     
+0x7e12daf0         TCPv4    192.168.194.173:49234          172.217.194.108:993  ESTABLISHED      2776     thunderbird.ex 
+0x7e12ea90         TCPv4    192.168.194.173:49235          172.217.194.108:993  ESTABLISHED      2776     thunderbird.ex 
+0x7e1406f0         TCPv4    192.168.194.173:49257          34.104.35.123:80     ESTABLISHED      840      svchost.exe    
+0x7e1b5970         TCPv4    192.168.194.173:49246          142.250.204.4:443    ESTABLISHED      2892     chrome.exe     
+0x7e273010         TCPv4    -:0                            56.27.134.26:0       CLOSED           4        System         
+0x7e2755b0         TCPv6    -:0                            381b:861a:80fa:ffff:381b:861a:80fa:ffff:0 CLOSED           992      svchost.exe    
+0x7e2804e0         TCPv6    -:0                            e809:2e1a:80fa:ffff:e809:2e1a:80fa:ffff:0 CLOSED           4        System         
+0x7e329390         TCPv6    -:0                            4860:da18:80fa:ffff:4860:da18:80fa:ffff:0 CLOSED           4        System         
+0x7e42fd70         UDPv4    0.0.0.0:49942                  *:*                                   992      svchost.exe    2022-08-28 06:44:25 UTC+0000
+0x7e454250         UDPv4    0.0.0.0:0                      *:*                                   324      svchost.exe    2022-08-28 06:42:46 UTC+0000
+0x7e454250         UDPv6    :::0                           *:*                                   324      svchost.exe    2022-08-28 06:42:46 UTC+0000
+0x7e45cd00         UDPv4    0.0.0.0:5355                   *:*                                   324      svchost.exe    2022-08-28 06:42:59 UTC+0000
+0x7e45cd00         UDPv6    :::5355                        *:*                                   324      svchost.exe    2022-08-28 06:42:59 UTC+0000
+0x7e609780         UDPv4    0.0.0.0:0                      *:*                                   840      svchost.exe    2022-08-28 06:53:07 UTC+0000
+0x7e609780         UDPv6    :::0                           *:*                                   840      svchost.exe    2022-08-28 06:53:07 UTC+0000
+0x7e8b0880         UDPv4    192.168.194.173:137            *:*                                   4        System         2022-08-28 06:42:52 UTC+0000
+0x7e4335f0         TCPv4    0.0.0.0:49156                  0.0.0.0:0            LISTENING        484      services.exe   
+0x7e435ad0         TCPv4    0.0.0.0:49156                  0.0.0.0:0            LISTENING        484      services.exe   
+0x7e435ad0         TCPv6    :::49156                       :::0                 LISTENING        484      services.exe   
+0x7e441530         TCPv4    0.0.0.0:445                    0.0.0.0:0            LISTENING        4        System         
+0x7e441530         TCPv6    :::445                         :::0                 LISTENING        4        System         
+0x7e4e5160         TCPv4    192.168.194.173:139            0.0.0.0:0            LISTENING        4        System         
+0x7e8951b0         TCPv4    0.0.0.0:135                    0.0.0.0:0            LISTENING        688      svchost.exe    
+0x7e8951b0         TCPv6    :::135                         :::0                 LISTENING        688      svchost.exe    
+0x7e8972a0         TCPv4    0.0.0.0:135                    0.0.0.0:0            LISTENING        688      svchost.exe    
+0x7e89c350         TCPv4    0.0.0.0:49152                  0.0.0.0:0            LISTENING        388      wininit.exe    
+0x7e89fad0         TCPv4    0.0.0.0:49152                  0.0.0.0:0            LISTENING        388      wininit.exe    
+0x7e89fad0         TCPv6    :::49152                       :::0                 LISTENING        388      wininit.exe    
+0x7e8d1ef0         TCPv4    0.0.0.0:49153                  0.0.0.0:0            LISTENING        776      svchost.exe    
+0x7e8d3390         TCPv4    0.0.0.0:49153                  0.0.0.0:0            LISTENING        776      svchost.exe    
+0x7e8d3390         TCPv6    :::49153                       :::0                 LISTENING        776      svchost.exe    
+0x7e9946f0         TCPv4    0.0.0.0:49154                  0.0.0.0:0            LISTENING        840      svchost.exe    
+0x7e995da0         TCPv4    0.0.0.0:49154                  0.0.0.0:0            LISTENING        840      svchost.exe    
+0x7e995da0         TCPv6    :::49154                       :::0                 LISTENING        840      svchost.exe    
+0x7e9c4390         TCPv4    0.0.0.0:49155                  0.0.0.0:0            LISTENING        492      lsass.exe      
+0x7e9c8ad0         TCPv4    0.0.0.0:49155                  0.0.0.0:0            LISTENING        492      lsass.exe      
+0x7e9c8ad0         TCPv6    :::49155                       :::0                 LISTENING        492      lsass.exe      
+0x7e438cf0         TCPv4    127.0.0.1:49222                127.0.0.1:49223      ESTABLISHED      2776     thunderbird.ex 
+0x7e439010         TCPv4    192.168.194.173:49217          104.19.233.107:443   CLOSED           2892     chrome.exe     
+0x7e43ebe0         TCPv4    192.168.194.173:49242          172.217.194.108:993  ESTABLISHED      2776     thunderbird.ex 
+0x7e4d4cf0         TCPv4    192.168.194.173:49215          104.19.232.107:443   CLOSED           2892     chrome.exe     
+0x7e606190         TCPv4    192.168.194.173:49250          142.250.66.238:443   ESTABLISHED      2892     chrome.exe     
+0x7e609010         TCPv4    192.168.194.173:49249          172.217.24.35:443    ESTABLISHED      2892     chrome.exe     
+0x7e70b010         TCPv4    192.168.194.173:49243          172.217.167.106:443  ESTABLISHED      2776     thunderbird.ex 
+0x7e70b7f0         TCPv4    192.168.194.173:49179          34.104.35.123:443    CLOSED           2892     chrome.exe     
+0x7e767cf0         TCPv4    127.0.0.1:49223                127.0.0.1:49222      ESTABLISHED      2776     thunderbird.ex 
+0x7e790b60         TCPv4    192.168.194.173:49189          104.19.233.107:443   CLOSED           2892     chrome.exe     
+0x7e791010         TCPv4    192.168.194.173:49255          172.217.194.108:993  ESTABLISHED      2776     thunderbird.ex 
+0x7e7aacf0         TCPv4    192.168.194.173:49198          104.19.232.107:443   CLOSED           2892     chrome.exe     
+0x7e7cccf0         TCPv4    192.168.194.173:0              104.19.232.107:0     LISTENING        -1                      
+0x7e7cdb60         TCPv4    192.168.194.173:49199          104.19.232.107:443   CLOSED           2892     chrome.exe     
+0x7e7d1580         TCPv4    127.0.0.1:49229                127.0.0.1:49228      ESTABLISHED      2136     thunderbird.ex 
+0x7e7d19d0         TCPv4    127.0.0.1:49228                127.0.0.1:49229      ESTABLISHED      2136     thunderbird.ex 
+0x7e867390         TCPv4    192.168.194.173:49254          172.217.194.108:993  ESTABLISHED      2776     thunderbird.ex 
+0x7e899980         TCPv6    -:0                            a814:191a:80fa:ffff:a814:191a:80fa:ffff:0 CLOSED           1        PA????       
+0x7e93e7f0         TCPv4    -:49174                        172.217.167.67:443   CLOSED           2892     chrome.exe     
+0x7e99f8d0         TCPv6    -:0                            e809:2e1a:80fa:ffff:e809:2e1a:80fa:ffff:0 CLOSED           1        PA????       
+0x7e9d2cf0         TCPv4    192.168.194.173:49252          173.194.202.91:443   ESTABLISHED      2892     chrome.exe     
+0x7f397ad0         UDPv4    0.0.0.0:5004                   *:*                                   2320     wmpnetwk.exe   2022-08-28 06:43:03 UTC+0000
+0x7f397ad0         UDPv6    :::5004                        *:*                                   2320     wmpnetwk.exe   2022-08-28 06:43:03 UTC+0000
+0x7f573550         UDPv4    192.168.194.173:138            *:*                                   4        System         2022-08-28 06:42:52 UTC+0000
+0x7fb3d010         TCPv4    -:0                            232.9.46.26:0        CLOSED           4        System         
+0x7fb3d430         TCPv4    -:0                            232.9.46.26:0        CLOSED           4        System         

@@ -1,0 +1,66 @@
+
+--------------------------------------------------------------------------------
+EvidenceC.zip (md5sum: 2c355382f00636d62f2d5bf1b105625c)
+
+sansforensics@siftworkstation: ~/Downloads/evidence_C
+$ md5sum *
+3761bee56aa41c774fc630f474d798af  EvidenceC.pcap
+2c355382f00636d62f2d5bf1b105625c  EvidenceC.zip
+--------------------------------------------------------------------------------
+IPs
+10.10.10.33
+10.10.10.254
+10.10.10.56
+10.10.10.1
+10.10.10.22
+8.8.8.8
+34.120.208.123
+10.10.10.254
+10.10.10.44
+
+--------------------------------------------------------------------------------
+sansforensics@siftworkstation: ~/Downloads/evidence_C
+$ strings EvidenceC.pcap | grep -ic eason
+44
+sansforensics@siftworkstation: ~/Downloads/evidence_C
+$ strings EvidenceC.pcap | grep -ic msg
+100
+
+$ strings EvidenceC.pcap | grep -i msg | cat > '/home/sansforensics/Downloads/evidence_C/chat.txt'
+$ strings EvidenceC.pcap | grep -i ["msg",{ | cat > '/home/sansforensics/Downloads/evidence_C/chat.txt' 
+
+strings EvidenceC.pcap | grep -C 9 msg
+$ strings EvidenceC.pcap | grep -C 9 msg | cat > '/home/sansforensics/Downloads/evidence_C/msg.txt'
+--------------------------------------------------------------------------------
+pcap to text file
+
+strings EvidenceC.pcap | cat > '/home/sansforensics/Downloads/evidence_C/EvidencePCAP_3.txt'
+tcpick -C -yP -r '/home/sansforensics/Downloads/evidence_C/EvidenceC.pcap' | cat > '/home/sansforensics/Downloads/evidence_C/EvidencePCAP2.txt' 
+--------------------------------------------------------------------------------
+************
+--------------------------------------------------------------------------------
+************
+--------------------------------------------------------------------------------
+************
+--------------------------------------------------------------------------------
+************
+--------------------------------------------------------------------------------
+************
+--------------------------------------------------------------------------------
+************
+--------------------------------------------------------------------------------
+************
+--------------------------------------------------------------------------------
+************
+--------------------------------------------------------------------------------
+
+tcp -- 21 == File Transfer Protocol (FTP) Command Control
+udp -- 53 == Domain Name System (DNS) service
+tcp -- 80 == Hypertext Transfer Protocol (HTTP) used in World Wide Web
+UDP -- 123 == Network Time Protocol (NTP)
+tcp and udp 443 == HTTP Secure (HTTPS) HTTP over TLS/SSL
+--------------------------------------------------------------------------------
+Who are the people communicating in the transmission?  When does the first transmission begin and the last transmission finish?
+What browsers and operating systems are used by the communication endpoints?
+What was sent for Benji to collect?
+Does the network capture reveal the relationship between Eason Hunter and the people participating in the intercepted communications?

@@ -1,0 +1,234 @@
+Usage: Volatility - A memory forensics analysis platform.
+
+Options:
+  -h, --help            list all available options and their default values.
+                        Default values may be set in the configuration file
+                        (/etc/volatilityrc)
+  --conf-file=/home/sansforensics/.volatilityrc
+                        User based configuration file
+  -d, --debug           Debug volatility
+  --plugins=PLUGINS     Additional plugin directories to use (colon separated)
+  --info                Print information about all registered objects
+  --cache-directory=/home/sansforensics/.cache/volatility
+                        Directory where cache files are stored
+  --cache               Use caching
+  --tz=TZ               Sets the (Olson) timezone for displaying timestamps
+                        using pytz (if installed) or tzset
+  -C 190000, --confsize=190000
+                        Config data size
+  -Y YARAOFFSET, --yaraoffset=YARAOFFSET
+                        YARA start offset
+  -f FILENAME, --filename=FILENAME
+                        Filename to use when opening an image
+  --profile=WinXPSP2x86
+                        Name of the profile to load (use --info to see a list
+                        of supported profiles)
+  -l LOCATION, --location=LOCATION
+                        A URN location from which to load an address space
+  -w, --write           Enable write support
+  --dtb=DTB             DTB Address
+  --physical_shift=PHYSICAL_SHIFT
+                        Linux kernel physical shift address
+  --virtual_shift=VIRTUAL_SHIFT
+                        Linux kernel virtual shift address
+  --shift=SHIFT         Mac KASLR shift address
+  --output=text         Output in this format (support is module specific, see
+                        the Module Output Options below)
+  --output-file=OUTPUT_FILE
+                        Write output in this file
+  -v, --verbose         Verbose information
+  -g KDBG, --kdbg=KDBG  Specify a KDBG virtual address (Note: for 64-bit
+                        Windows 8 and above this is the address of
+                        KdCopyDataBlock)
+  --force               Force utilization of suspect profile
+  -k KPCR, --kpcr=KPCR  Specify a specific KPCR address
+  --cookie=COOKIE       Specify the address of nt!ObHeaderCookie (valid for
+                        Windows 10 only)
+
+	Supported Plugin Commands:
+
+		agtidconfig    	Parse the Agtid configuration
+		amcache        	Print AmCache information
+		antianalysis   	
+		apifinder      	
+		apihooks       	Detect API hooks in process and kernel memory
+		apihooksdeep   	Detect API hooks in process and kernel memory, with ssdeep for whitelisting
+		apt17scan      	Detect processes infected with APT17 malware
+		atoms          	Print session and window station atom tables
+		atomscan       	Pool scanner for atom tables
+		attributeht    	Find Hacking Team implants and attempt to attribute them using a watermark.
+		auditpol       	Prints out the Audit Policies from HKLM\SECURITY\Policy\PolAdtEv
+		autoruns       	Searches the registry and memory space for applications running at system startup and maps them to running processes
+		bigpools       	Dump the big page pools using BigPagePoolScanner
+		bioskbd        	Reads the keyboard buffer from Real Mode memory
+		bitlocker      	Extract Bitlocker FVEK. Supports Windows 7 - 10.
+		cachedump      	Dumps cached domain hashes from memory
+		callbacks      	Print system-wide notification routines
+		callstacks     	this is the plugin class for callstacks 
+		chromecookies  	Scans for and parses potential Chrome cookie data
+		chromedownloadchains	Scans for and parses potential Chrome download chain records
+		chromedownloads	Scans for and parses potential Chrome download records
+		chromehistory  	Scans for and parses potential Chrome url history
+		chromesearchterms	Scans for and parses potential Chrome keyword search terms
+		chromevisits   	Scans for and parses potential Chrome url visits data -- VERY SLOW, see -Q option
+		clipboard      	Extract the contents of the windows clipboard
+		cmdline        	Display process command-line arguments
+		cmdscan        	Extract command history by scanning for _COMMAND_HISTORY
+		connections    	Print list of open connections [Windows XP and 2003 Only]
+		connscan       	Pool scanner for tcp connections
+		consoles       	Extract command history by scanning for _CONSOLE_INFORMATION
+		crashinfo      	Dump crash-dump information
+		derusbiconfig  	Parse the Derusbi configuration
+		deskscan       	Poolscaner for tagDESKTOP (desktops)
+		devicetree     	Show device tree
+		directoryenumerator	Enumerates all unique directories from FileScan 
+		dlldump        	Dump DLLs from a process address space
+		dlllist        	Print list of loaded dlls for each process
+		driverbl       	Scans memory for driver objects and compares the results with the baseline image
+		driverirp      	Driver IRP hook detection
+		driveritem     	
+		drivermodule   	Associate driver objects to kernel modules
+		driverscan     	Pool scanner for driver objects
+		dumpcerts      	Dump RSA private and public SSL keys
+		dumpfiles      	Extract memory mapped and cached files
+		dumpregistry   	Dumps registry files out to disk 
+		dyrescan       	Extract Dyre Configuration from processes 
+		editbox        	Displays information about Edit controls. (Listbox experimental.)
+		envars         	Display process environment variables
+		eventhooks     	Print details on windows event hooks
+		evtlogs        	Extract Windows Event Logs (XP/2003 only)
+		facebook       	Retrieve facebook artifacts from a memory image
+		facebookcontacts	Finds possible Facebook contacts
+		facebookgrabinfo	Carves the memory dump for Owner's personal info JSON struct.
+		facebookmessages	Carves the memory for every message exchanged between the Owner and another contact
+		fileitem       	
+		filescan       	Pool scanner for file objects
+		firefoxcookies 	Scans for and parses potential Firefox cookies (cookies.sqlite moz_cookies table
+		firefoxdownloads	Scans for and parses potential Firefox download records -- downloads.sqlite moz_downloads table pre FF26 only
+		firefoxhistory 	Scans for and parses potential Firefox url history (places.sqlite moz_places table)
+		fwhooks        	Enumerates modules which are using Firewall Hook Drivers on Windows 2000/XP/2003
+		gahti          	Dump the USER handle type information
+		gditimers      	Print installed GDI timers and callbacks
+		gdt            	Display Global Descriptor Table
+		getservicesids 	Get the names of services in the Registry and return Calculated SID
+		getsids        	Print the SIDs owning each process
+		ghostrat       	Detects and decrypts Gh0stRat communication
+		handles        	Print list of open handles for each process
+		hashdump       	Dumps passwords hashes (LM/NTLM) from memory
+		hibinfo        	Dump hibernation file information
+		hikitconfig    	Parse the Hikit configuration
+		hivedump       	Prints out a hive
+		hivelist       	Print list of registry hives.
+		hivescan       	Pool scanner for registry hives
+		hollowfind     	Detects different types of Process Hollowing
+		hookitem       	
+		hpakextract    	Extract physical memory from an HPAK file
+		hpakinfo       	Info on an HPAK file
+		hpv_clipboard  	Dump Virtual Machine Clipboard data
+		hpv_vmconnect  	Virtual Machine Console data
+		hpv_vmwp       	Display the Virtual Machine Process GUID for each running vm
+		idt            	Display Interrupt Descriptor Table
+		idxparser      	Scans for and parses Java IDX files 
+		iehistory      	Reconstruct Internet Explorer cache / history
+		imagecopy      	Copies a physical address space out as a raw DD image
+		imageinfo      	Identify information for the image 
+		impscan        	Scan for calls to imported functions
+		indx           	Scans for and parses potential INDX entries 
+		joblinks       	Print process job link information
+		kdbgscan       	Search for and dump potential KDBG values
+		kpcrscan       	Search for and dump potential KPCR values
+		lastpass       	Extract lastpass data from process. 
+		ldrmodules     	Detect unlinked DLLs
+		linuxgetprofile	Scan to try to determine the Linux profile
+		logfile        	Scans for and parses potential $Logfile entries 
+		lsadump        	Dump (decrypted) LSA secrets from the registry
+		machoinfo      	Dump Mach-O file format information
+		malfind        	Find hidden and injected code
+		malfinddeep    	Find hidden and injected code, whitelist with ssdeep hashes
+		malfofind      	Find indications of process hollowing/RunPE injections
+		malprocfind    	Finds malicious processes based on discrepancies from observed, normal behavior and properties
+		malthfind      	Find malicious threads by analyzing their callstack
+		mbrparser      	Scans for and parses potential Master Boot Records (MBRs) 
+		memdump        	Dump the addressable memory for a process
+		memmap         	Print the memory map
+		messagehooks   	List desktop and thread window message hooks
+		mftparser      	Scans for and parses potential MFT entries 
+		mimikatz       	mimikatz offline
+		moddump        	Dump a kernel driver to an executable file sample
+		modscan        	Pool scanner for kernel modules
+		modules        	Print list of loaded modules
+		msdecompress   	Carves and dumps Lznt1, Xpress and Xpress huffman Compressioned data blocks in a processes pagespace
+		multiscan      	Scan for various objects at once
+		mutantscan     	Pool scanner for mutex objects
+		ndispktscan    	Extract the packets from memory
+		networkpackets 	Carve and analyze ARP/IPv4 network packets from memory 
+		notepad        	List currently displayed notepad text
+		objtypescan    	Scan for Windows object type objects
+		openioc_scan   	Scan OpenIOC 1.1 based indicators
+		openvpn        	Extract OpenVPN client credentials (username, password) cached in memory.
+		osint          	Check Url/ip extracted from memory against opensource intelligence platforms
+		patcher        	Patches memory based on page scans
+		plugxconfig    	Locate and parse the PlugX configuration
+		plugxscan      	Detect processes infected with PlugX
+		poolpeek       	Configurable pool scanner plugin
+		prefetchparser 	Scans for and parses potential Prefetch files 
+		printkey       	Print a registry key, and its subkeys and values
+		privs          	Display process privileges
+		procdump       	Dump a process to an executable file sample
+		processbl      	Scans memory for processes and loaded DLLs and compares the results with the baseline
+		profilescan    	Scan for executables to try to determine the underlying OS
+		psinfo         	Displays process related information and suspicious memory regions
+		pslist         	Print all running processes by following the EPROCESS lists 
+		psscan         	Pool scanner for process objects
+		pstotal        	Combination of pslist,psscan & pstree --output=dot gives graphical representation 
+		pstree         	Print process list as a tree
+		psxview        	Find hidden processes with various process listings
+		qemuinfo       	Dump Qemu information
+		raw2dmp        	Converts a physical memory sample to a windbg crash dump
+		registryitem   	
+		rsakey         	Extract base64/PEM encoded private RSA keys from physical memory.
+		screenshot     	Save a pseudo-screenshot based on GDI windows
+		servicebl      	Scans memory for service objects and compares the results with the baseline image
+		servicediff    	List Windows services (ala Plugx)
+		serviceitem    	
+		sessions       	List details on _MM_SESSION_SPACE (user logon sessions)
+		shellbags      	Prints ShellBags info
+		shimcache      	Parses the Application Compatibility Shim Cache registry key
+		shimcachemem   	Parses the Application Compatibility Shim Cache stored in kernel memory
+		shutdowntime   	Print ShutdownTime of machine from registry
+		sockets        	Print list of open sockets
+		sockscan       	Pool scanner for tcp socket objects
+		ssdeepscan     	Scan process or kernel memory with SSDeep signatures
+		ssdt           	Display SSDT entries
+		strings        	Match physical offsets to virtual addresses (may take a while, VERY verbose)
+		svcscan        	Scan for Windows services
+		symlinkscan    	Pool scanner for symlink objects
+		systeminfo     	Print common system details of machine from registry
+		thrdscan       	Pool scanner for thread objects
+		threads        	Investigate _ETHREAD and _KTHREADs
+		timeliner      	Creates a timeline from various artifacts in memory 
+		timers         	Print kernel timers and associated module DPCs
+		truecryptmaster	Recover TrueCrypt 7.1a Master Keys
+		truecryptpassphrase	TrueCrypt Cached Passphrase Finder
+		truecryptsummary	TrueCrypt Summary
+		trustrecords   	Extract MS Office TrustRecords from the Registry
+		twitter        	Retrieve twitter artifacts from a memory image
+		uninstallinfo  	Extract installed software info from Uninstall registry key
+		unloadedmodules	Print list of unloaded modules
+		usbstor        	Parse USB Data from the Registry
+		userassist     	Print userassist registry keys and information
+		userhandles    	Dump the USER handle tables
+		usnjrnl        	Scans for and parses potential USNJRNL entries 
+		usnparser      	Scans for and parses USN journal records
+		vaddump        	Dumps out the vad sections to a file
+		vadinfo        	Dump the VAD info
+		vadtree        	Walk the VAD tree and display in tree format
+		vadwalk        	Walk the VAD tree
+		vboxinfo       	Dump virtualbox information
+		verinfo        	Prints out the version information from PE images
+		vmwareinfo     	Dump VMware VMSS/VMSN information
+		volshell       	Shell in the memory image
+		windows        	Print Desktop Windows (verbose details)
+		wintree        	Print Z-Order Desktop Windows Tree
+		wndscan        	Pool scanner for window stations
+		yarascan       	Scan process or kernel memory with Yara signatures

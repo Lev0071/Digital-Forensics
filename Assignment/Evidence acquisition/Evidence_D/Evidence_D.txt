@@ -1,0 +1,326 @@
+$ img_stat *
+IMAGE FILE INFORMATION
+--------------------------------------------
+Image Type: raw
+
+Size in bytes: 13118238720
+Sector size:	512
+
+--------------------------------------------
+Split Information:
+dm-0  (0 to 2641915903)
+dm-1  (2641915904 to 4789399551)
+vda  (4789399552 to 7475851263)
+vda1  (7475851264 to 10160205823)
+vdb  (10160205824 to 10229411839)
+vdc  (10229411840 to 12376895487)
+vdd  (12376895488 to 12377944063)
+vde  (12377944064 to 12480704511)
+vde1  (12480704512 to 12581367807)
+vdf  (12581367808 to 13118238719)
+
+==============================================================
+cat dm-0 dm-1 vda vda1 vdb vdc vdd vde vde1 vdf > concat
+
+$ sudo fsstat concat | grep -E "Group:|Total Directories:"
+
+Block Groups Per Flex Group: 16
+Group: 0:
+  Total Directories: 392
+
+Group 0 has the most directories the only group with any directories.
+
+
+==============================================================
+
+$ ls -lh
+total 13G
+-rw-r--r-- 1 sansforensics sansforensics 2.5G Sep 26 11:46 dm-0
+-rw-r--r-- 1 sansforensics sansforensics 2.0G Sep 26 11:45 dm-1
+-rw-r--r-- 1 sansforensics sansforensics 2.6G Sep 26 11:47 vda
+-rw-r--r-- 1 sansforensics sansforensics 2.5G Sep 26 11:46 vda1
+-rw-r--r-- 1 sansforensics sansforensics  66M Sep 26 11:46 vdb
+-rw-r--r-- 1 sansforensics sansforensics 2.0G Sep 26 11:46 vdc
+-rw-r--r-- 1 sansforensics sansforensics 1.0M Sep 26 11:46 vdd
+-rw-r--r-- 1 sansforensics sansforensics  98M Sep 26 11:46 vde
+-rw-r--r-- 1 sansforensics sansforensics  96M Sep 26 11:47 vde1
+-rw-r--r-- 1 sansforensics sansforensics 512M Sep 26 11:46 vdf
+
+
+==============================================================
+
+Apps
+
+sudo mount -o loop,ro,noexec,noload dm-0 /mnt/e01
+sudo ls /mnt/e01
+find /mnt/e01 -name *.apk | cat > '/home/sansforensics/Downloads/evidence_D/Investigation/dm-0_apps.txt'
+sudo umount /mnt/e01
+
+sudo mount -o loop,ro,noexec,noload dm-1 /mnt/e01
+sudo ls /mnt/e01
+find /mnt/e01 -name *.apk | cat > '/home/sansforensics/Downloads/evidence_D/Investigation/dm-1_apps.txt'
+sudo umount /mnt/e01
+
+mmls
+XXXXXXXXXXXXX
+sudo mount -o loop,ro,noexec,noload vda /mnt/e01
+sudo ls /mnt/e01
+find /mnt/e01 -name *.apk | cat > '/home/sansforensics/Downloads/evidence_D/Investigation/vda_apps.txt'
+sudo umount /mnt/e01
+
+sudo mount -o loop,ro,noexec,noload vda1 /mnt/e01
+sudo ls /mnt/e01
+find /mnt/e01 -name *.apk | cat > '/home/sansforensics/Downloads/evidence_D/Investigation/vda1_apps.txt'
+sudo umount /mnt/e01
+
+sudo mount -o loop,ro,noexec,noload vdb /mnt/e01
+sudo ls /mnt/e01
+find /mnt/e01 -name *.apk | cat > '/home/sansforensics/Downloads/evidence_D/Investigation/vdb_apps.txt'
+sudo umount /mnt/e01
+
+XXXXXXXXXXXXX
+sudo mount -o loop,ro,noexec,noload vdc /mnt/e01
+sudo ls /mnt/e01
+find /mnt/e01 -name *.apk | cat > '/home/sansforensics/Downloads/evidence_D/Investigation/vdc_apps.txt'
+sudo umount /mnt/e01
+
+XXXXXXXXXXXXX
+sudo mount -o loop,ro,noexec,noload vdd /mnt/e01
+sudo ls /mnt/e01
+find /mnt/e01 -name *.apk | cat > '/home/sansforensics/Downloads/evidence_D/Investigation/vdd_apps.txt'
+sudo umount /mnt/e01
+
+XXXXXXXXXXXXX
+sudo mount -o loop,ro,noexec,noload vde /mnt/e01
+sudo ls /mnt/e01
+find /mnt/e01 -name *.apk | cat > '/home/sansforensics/Downloads/evidence_D/Investigation/vde_apps.txt'
+sudo umount /mnt/e01
+
+sudo mount -o loop,ro,noexec,noload vde1 /mnt/e01
+sudo ls /mnt/e01
+find /mnt/e01 -name *.apk | cat > '/home/sansforensics/Downloads/evidence_D/Investigation/vde1_apps.txt'
+sudo umount /mnt/e01
+
+fsstat
+FAT32
+XXXXXXXXXXXXX
+sudo mount -o loop,ro,noexec,noload vdf /mnt/e01
+sudo ls /mnt/e01
+find /mnt/e01 -name *.apk | cat > '/home/sansforensics/Downloads/evidence_D/Investigation/vdf_apps.txt'
+sudo umount /mnt/e01
+
+==========================================================================================
+
+Contacts_PhoneCalls
+
+sudo mount -o loop,ro,noexec,noload dm-0 /mnt/e01
+sudo ls /mnt/e01
+find /mnt/e01 -name "*calllog*" | cat > '/home/sansforensics/Downloads/evidence_D/Investigation/dm-0_calllog.txt'
+sudo umount /mnt/e01
+
+sudo mount -o loop,ro,noexec,noload dm-1 /mnt/e01
+sudo ls /mnt/e01
+find /mnt/e01 -name "*calllog*" | cat > '/home/sansforensics/Downloads/evidence_D/Investigation/dm-1_calllog.txt'
+sudo umount /mnt/e01
+
+mmls
+XXXXXXXXXXXXX
+sudo mount -o loop,ro,noexec,noload vda /mnt/e01
+sudo ls /mnt/e01
+find /mnt/e01 -name "*calllog*" | cat > '/home/sansforensics/Downloads/evidence_D/Investigation/vda_calllog.txt'
+sudo umount /mnt/e01
+
+sudo mount -o loop,ro,noexec,noload vda1 /mnt/e01
+sudo ls /mnt/e01
+find /mnt/e01 -name "*calllog*" | cat > '/home/sansforensics/Downloads/evidence_D/Investigation/vda1_calllog.txt'
+sudo umount /mnt/e01
+
+sudo mount -o loop,ro,noexec,noload vdb /mnt/e01
+sudo ls /mnt/e01
+find /mnt/e01 -name "*calllog*" | cat > '/home/sansforensics/Downloads/evidence_D/Investigation/vdb_calllog.txt'
+sudo umount /mnt/e01
+
+XXXXXXXXXXXXX
+sudo mount -o loop,ro,noexec,noload vdc /mnt/e01
+sudo ls /mnt/e01
+find /mnt/e01 -name "*calllog*" | cat > '/home/sansforensics/Downloads/evidence_D/Investigation/vdc_calllog.txt'
+sudo umount /mnt/e01
+
+XXXXXXXXXXXXX
+sudo mount -o loop,ro,noexec,noload vdd /mnt/e01
+sudo ls /mnt/e01
+find /mnt/e01 -name "*calllog*" | cat > '/home/sansforensics/Downloads/evidence_D/Investigation/vdd_calllog.txt'
+sudo umount /mnt/e01
+
+XXXXXXXXXXXXX
+sudo mount -o loop,ro,noexec,noload vde /mnt/e01
+sudo ls /mnt/e01
+find /mnt/e01 -name "*calllog*" | cat > '/home/sansforensics/Downloads/evidence_D/Investigation/vde_calllog.txt'
+sudo umount /mnt/e01
+
+sudo mount -o loop,ro,noexec,noload vde1 /mnt/e01
+sudo ls /mnt/e01
+find /mnt/e01 -name "*calllog*" | cat > '/home/sansforensics/Downloads/evidence_D/Investigation/vde1_calllog.txt'
+sudo umount /mnt/e01
+
+fsstat
+FAT32
+XXXXXXXXXXXXX
+sudo mount -o loop,ro,noexec,noload vdf /mnt/e01
+sudo ls /mnt/e01
+find /mnt/e01 -name "*calllog*" | cat > '/home/sansforensics/Downloads/evidence_D/Investigation/dm-0_calllog.txt'
+sudo umount /mnt/e01
+
+===========================================================================
+
+contacts2.db > data
+Benji Saulson
+Erika Sloane
+Tony
+
+
+===========================================================================
+
+SMS
+
+
+sudo mount -o loop,ro,noexec,noload dm-0 /mnt/e01
+sudo ls /mnt/e01
+sudo find /mnt/e01 -name "*telephony*" | cat > '/home/sansforensics/Downloads/ Evidence_D/Investigation/sms/dm-0_sms.txt'
+sudo umount /mnt/e01
+
+sudo mount -o loop,ro,noexec,noload dm-1 /mnt/e01
+sudo ls /mnt/e01
+sudo find /mnt/e01 -name "*telephony*" | cat > '/home/sansforensics/Downloads/ Evidence_D/Investigation/sms/dm-1_sms.txt'
+sudo umount /mnt/e01
+
+mmls
+XXXXXXXXXXXXX
+sudo mount -o loop,ro,noexec,noload vda /mnt/e01
+sudo ls /mnt/e01
+sudo find /mnt/e01 -name "*telephony*" | cat > '/home/sansforensics/Downloads/ Evidence_D/Investigation/sms/vda_sms.txt'
+sudo umount /mnt/e01
+
+sudo mount -o loop,ro,noexec,noload vda1 /mnt/e01
+sudo ls /mnt/e01
+sudo find /mnt/e01 -name "*telephony*" | cat > '/home/sansforensics/Downloads/ Evidence_D/Investigation/sms/vda1_sms.txt'
+sudo umount /mnt/e01
+
+sudo mount -o loop,ro,noexec,noload vdb /mnt/e01
+sudo ls /mnt/e01
+sudo find /mnt/e01 -name "*telephony*" | cat > '/home/sansforensics/Downloads/ Evidence_D/Investigation/sms/vdb_sms.txt'
+sudo umount /mnt/e01
+
+XXXXXXXXXXXXX
+sudo mount -o loop,ro,noexec,noload vdc /mnt/e01
+sudo ls /mnt/e01
+sudo find /mnt/e01 -name "*telephony*" | cat > '/home/sansforensics/Downloads/ Evidence_D/Investigation/sms/vdc_sms.txt'
+sudo umount /mnt/e01
+
+XXXXXXXXXXXXX
+sudo mount -o loop,ro,noexec,noload vdd /mnt/e01
+sudo ls /mnt/e01
+sudo find /mnt/e01 -name "*telephony*" | cat > '/home/sansforensics/Downloads/ Evidence_D/Investigation/sms/vdd_sms.txt'
+sudo umount /mnt/e01
+
+XXXXXXXXXXXXX
+sudo mount -o loop,ro,noexec,noload vde /mnt/e01
+sudo ls /mnt/e01
+sudo find /mnt/e01 -name "*telephony*" | cat > '/home/sansforensics/Downloads/ Evidence_D/Investigation/sms/vde_sms.txt'
+sudo umount /mnt/e01
+
+sudo mount -o loop,ro,noexec,noload vde1 /mnt/e01
+sudo ls /mnt/e01
+sudo find /mnt/e01 -name "*telephony*" | cat > '/home/sansforensics/Downloads/ Evidence_D/Investigation/sms/vde1_sms.txt'
+sudo umount /mnt/e01
+
+fsstat
+FAT32
+XXXXXXXXXXXXX
+sudo mount -o loop,ro,noexec,noload vdf /mnt/e01
+sudo ls /mnt/e01
+sudo find /mnt/e01 -name "*telephony*" | cat > '/home/sansforensics/Downloads/evidence_D/Investigation/dm-0_calllog.txt'
+sudo umount /mnt/e01
+
+===========================================================================
+
+sudo chown sansforensics:sansforensics
+CONTACTS
+
+
+
+
+sudo mount -o loop,ro,noexec,noload dm-0 /mnt/e01
+sudo ls /mnt/e01
+sudo find /mnt/e01 -name "*contacts*" | cat > '/home/sansforensics/Downloads/ Evidence_D/Investigation/contacts/dm-0_contacts.txt'
+sudo umount /mnt/e01
+
+sudo mount -o loop,ro,noexec,noload dm-1 /mnt/e01
+sudo ls /mnt/e01
+sudo find /mnt/e01 -name "*contacts*" | cat > '/home/sansforensics/Downloads/ Evidence_D/Investigation/contacts/dm-1_contacts.txt'
+sudo umount /mnt/e01
+
+mmls
+XXXXXXXXXXXXX
+sudo mount -o loop,ro,noexec,noload vda /mnt/e01
+sudo ls /mnt/e01
+sudo find /mnt/e01 -name "*contacts*" | cat > '/home/sansforensics/Downloads/ Evidence_D/Investigation/contacts/vda_contacts.txt'
+sudo umount /mnt/e01
+
+sudo mount -o loop,ro,noexec,noload vda1 /mnt/e01
+sudo ls /mnt/e01
+sudo find /mnt/e01 -name "*contacts*" | cat > '/home/sansforensics/Downloads/ Evidence_D/Investigation/contacts/vda1_contacts.txt'
+sudo umount /mnt/e01
+
+sudo mount -o loop,ro,noexec,noload vdb /mnt/e01
+sudo ls /mnt/e01
+sudo find /mnt/e01 -name "*contacts*" | cat > '/home/sansforensics/Downloads/ Evidence_D/Investigation/contacts/vdb_contacts.txt'
+sudo umount /mnt/e01
+
+XXXXXXXXXXXXX
+sudo mount -o loop,ro,noexec,noload vdc /mnt/e01
+sudo ls /mnt/e01
+sudo find /mnt/e01 -name "*contacts*" | cat > '/home/sansforensics/Downloads/ Evidence_D/Investigation/contacts/vdc_contacts.txt'
+sudo umount /mnt/e01
+
+XXXXXXXXXXXXX
+sudo mount -o loop,ro,noexec,noload vdd /mnt/e01
+sudo ls /mnt/e01
+sudo find /mnt/e01 -name "*contacts*" | cat > '/home/sansforensics/Downloads/ Evidence_D/Investigation/contacts/vdd_contacts.txt'
+sudo umount /mnt/e01
+
+XXXXXXXXXXXXX
+sudo mount -o loop,ro,noexec,noload vde /mnt/e01
+sudo ls /mnt/e01
+sudo find /mnt/e01 -name "*contacts*" | cat > '/home/sansforensics/Downloads/ Evidence_D/Investigation/contacts/vde_contacts.txt'
+sudo umount /mnt/e01
+
+sudo mount -o loop,ro,noexec,noload vde1 /mnt/e01
+sudo ls /mnt/e01
+sudo find /mnt/e01 -name "*contacts*" | cat > '/home/sansforensics/Downloads/ Evidence_D/Investigation/contacts/vde1_contacts.txt'
+sudo umount /mnt/e01
+
+fsstat
+FAT32
+XXXXXXXXXXXXX
+sudo mount -o loop,ro,noexec,noload vdf /mnt/e01
+sudo ls /mnt/e01
+sudo find /mnt/e01 -name "*contacts*" | cat > '/home/sansforensics/Downloads/evidence_D/contacts/vdf_contacts.txt'
+sudo umount /mnt/e01
+
+telephony.db
+
+
+
+sudo mount dm-1 /mnt/e01
+sudo su
+cd /mnt/e01/data/com.android.providers.contacts/databases/
+cp contacts2.db '/home/sansforensics/Downloads/ Evidence_D/Investigation/contacts/dm-1'
+sudo chown sansforensics:sansforensics '/home/sansforensics/Downloads/ Evidence_D/Investigation/contacts/dm-1/contacts2.db'
+exit
+sudo umount /mnt/e01
+
+
+===========================================================================
+
+

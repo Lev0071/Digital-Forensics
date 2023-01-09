@@ -1,0 +1,34 @@
+cat EvidenceA.001 EvidenceA.002 EvidenceA.003 EvidenceA.004 EvidenceA.005 EvidenceA.006 EvidenceA.007 EvidenceA.008 EvidenceA.009 EvidenceA.010 EvidenceA.011 EvidenceA.012 EvidenceA.013 EvidenceA.014 > boathouse.dd
+
+img_stat EvidenceA
+
+mmls EvidenceA
+
+$ rip.pl -l | grep -5 recent
+
+recentdocs_tln
+recentapps
+recentdocs
+recentapps_tln
+
+
+/mnt/windows_mount/WINDOWS/Prefetch
+
+$ rip.pl -l | grep -i mru
+   - Shell/BagMRU traversal in Win7 USRCLASS.DAT hives
+   - Shell/BagMRU traversal in Win7 USRCLASS.DAT hives
+   - Shell/BagMRU traversal in Win7+ USRCLASS.DAT hives
+138. disablemru v.20190924 [NTUSER.DAT, Software]
+   - Checks settings disabling user's MRUs
+149. mndmru v.20200517 [NTUSER.DAT]
+   - Get contents of user's Map Network Drive MRU
+152. mndmru_tln v.20120829 [NTUSER.DAT]
+   - Get user's Map Network Drive MRU (TLN)
+   - Returns MRU for user's TypedURLs key (TLN)
+177. runmru v.20200525 [NTUSER.DAT]
+   - Gets contents of user's RunMRU key
+188. mpmru v.20200517 [NTUSER.DAT]
+190. runmru_tln v.20120828 [NTUSER.DAT]
+   - Gets contents of user's RunMRU key (TLN)
+
+rip.pl -r /mnt/windows_mount/Documents\ and\ Settings/Jim/NTUSER.DAT -p 
